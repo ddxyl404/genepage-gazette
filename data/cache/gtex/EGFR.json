@@ -1,0 +1,544 @@
+{
+  "symbol": "EGFR",
+  "ensembl_id": "ENSG00000146648",
+  "gencode_id": "ENSG00000146648.17",
+  "median_rows": [
+    {
+      "median": 39.7322,
+      "tissueSiteDetailId": "Adipose_Subcutaneous",
+      "ontologyId": "UBERON:0002190",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 25.8382,
+      "tissueSiteDetailId": "Adipose_Visceral_Omentum",
+      "ontologyId": "UBERON:0010414",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 14.6419,
+      "tissueSiteDetailId": "Adrenal_Gland",
+      "ontologyId": "UBERON:0002369",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 23.4493,
+      "tissueSiteDetailId": "Artery_Aorta",
+      "ontologyId": "UBERON:0001496",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 20.1819,
+      "tissueSiteDetailId": "Artery_Coronary",
+      "ontologyId": "UBERON:0001621",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 33.1978,
+      "tissueSiteDetailId": "Artery_Tibial",
+      "ontologyId": "UBERON:0007610",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 23.5296,
+      "tissueSiteDetailId": "Bladder",
+      "ontologyId": "UBERON:0001255",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 4.94781,
+      "tissueSiteDetailId": "Brain_Amygdala",
+      "ontologyId": "UBERON:0001876",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.58234,
+      "tissueSiteDetailId": "Brain_Anterior_cingulate_cortex_BA24",
+      "ontologyId": "UBERON:0009835",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 7.9245600000000005,
+      "tissueSiteDetailId": "Brain_Caudate_basal_ganglia",
+      "ontologyId": "UBERON:0001873",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.39642,
+      "tissueSiteDetailId": "Brain_Cerebellar_Hemisphere",
+      "ontologyId": "UBERON:0002037",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 4.72511,
+      "tissueSiteDetailId": "Brain_Cerebellum",
+      "ontologyId": "UBERON:0002037",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.2543,
+      "tissueSiteDetailId": "Brain_Cortex",
+      "ontologyId": "UBERON:0001870",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.61144,
+      "tissueSiteDetailId": "Brain_Frontal_Cortex_BA9",
+      "ontologyId": "UBERON:0009834",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.9834,
+      "tissueSiteDetailId": "Brain_Hippocampus",
+      "ontologyId": "UBERON:0001954",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 3.28776,
+      "tissueSiteDetailId": "Brain_Hypothalamus",
+      "ontologyId": "UBERON:0001898",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.9520100000000005,
+      "tissueSiteDetailId": "Brain_Nucleus_accumbens_basal_ganglia",
+      "ontologyId": "UBERON:0001882",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.38999,
+      "tissueSiteDetailId": "Brain_Putamen_basal_ganglia",
+      "ontologyId": "UBERON:0001874",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.0341,
+      "tissueSiteDetailId": "Brain_Spinal_cord_cervical_c-1",
+      "ontologyId": "UBERON:0006469",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 4.05847,
+      "tissueSiteDetailId": "Brain_Substantia_nigra",
+      "ontologyId": "UBERON:0002038",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 32.9422,
+      "tissueSiteDetailId": "Breast_Mammary_Tissue",
+      "ontologyId": "UBERON:0008367",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 60.6276,
+      "tissueSiteDetailId": "Cells_Cultured_fibroblasts",
+      "ontologyId": "EFO:0002009",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.148094,
+      "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+      "ontologyId": "EFO:0000572",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 30.9548,
+      "tissueSiteDetailId": "Cervix_Ectocervix",
+      "ontologyId": "UBERON:0012249",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 24.7174,
+      "tissueSiteDetailId": "Cervix_Endocervix",
+      "ontologyId": "UBERON:0000458",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 18.9776,
+      "tissueSiteDetailId": "Colon_Sigmoid",
+      "ontologyId": "UBERON:0001159",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 15.0498,
+      "tissueSiteDetailId": "Colon_Transverse",
+      "ontologyId": "UBERON:0001157",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 34.6313,
+      "tissueSiteDetailId": "Esophagus_Gastroesophageal_Junction",
+      "ontologyId": "UBERON:0004550",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 29.9136,
+      "tissueSiteDetailId": "Esophagus_Mucosa",
+      "ontologyId": "UBERON:0006920",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 31.8016,
+      "tissueSiteDetailId": "Esophagus_Muscularis",
+      "ontologyId": "UBERON:0004648",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 28.1227,
+      "tissueSiteDetailId": "Fallopian_Tube",
+      "ontologyId": "UBERON:0003889",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 4.9930699999999995,
+      "tissueSiteDetailId": "Heart_Atrial_Appendage",
+      "ontologyId": "UBERON:0006631",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 3.11803,
+      "tissueSiteDetailId": "Heart_Left_Ventricle",
+      "ontologyId": "UBERON:0006566",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.2046,
+      "tissueSiteDetailId": "Kidney_Cortex",
+      "ontologyId": "UBERON:0001225",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 10.6746,
+      "tissueSiteDetailId": "Kidney_Medulla",
+      "ontologyId": "UBERON:0001293",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 16.9142,
+      "tissueSiteDetailId": "Liver",
+      "ontologyId": "UBERON:0001114",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 22.1273,
+      "tissueSiteDetailId": "Lung",
+      "ontologyId": "UBERON:0008952",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 31.625999999999998,
+      "tissueSiteDetailId": "Minor_Salivary_Gland",
+      "ontologyId": "UBERON:0006330",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.7897300000000005,
+      "tissueSiteDetailId": "Muscle_Skeletal",
+      "ontologyId": "UBERON:0011907",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 43.1228,
+      "tissueSiteDetailId": "Nerve_Tibial",
+      "ontologyId": "UBERON:0001323",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 20.7359,
+      "tissueSiteDetailId": "Ovary",
+      "ontologyId": "UBERON:0000992",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.84974,
+      "tissueSiteDetailId": "Pancreas",
+      "ontologyId": "UBERON:0001150",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 4.23149,
+      "tissueSiteDetailId": "Pituitary",
+      "ontologyId": "UBERON:0000007",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 27.0509,
+      "tissueSiteDetailId": "Prostate",
+      "ontologyId": "UBERON:0002367",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 75.9298,
+      "tissueSiteDetailId": "Skin_Not_Sun_Exposed_Suprapubic",
+      "ontologyId": "UBERON:0036149",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 78.3374,
+      "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+      "ontologyId": "UBERON:0004264",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 12.8558,
+      "tissueSiteDetailId": "Small_Intestine_Terminal_Ileum",
+      "ontologyId": "UBERON:0001211",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.2702,
+      "tissueSiteDetailId": "Spleen",
+      "ontologyId": "UBERON:0002106",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 11.0075,
+      "tissueSiteDetailId": "Stomach",
+      "ontologyId": "UBERON:0000945",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.731380000000001,
+      "tissueSiteDetailId": "Testis",
+      "ontologyId": "UBERON:0000473",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 25.0389,
+      "tissueSiteDetailId": "Thyroid",
+      "ontologyId": "UBERON:0002046",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 21.3998,
+      "tissueSiteDetailId": "Uterus",
+      "ontologyId": "UBERON:0000995",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 40.6031,
+      "tissueSiteDetailId": "Vagina",
+      "ontologyId": "UBERON:0000996",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.0450544,
+      "tissueSiteDetailId": "Whole_Blood",
+      "ontologyId": "UBERON:0013756",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000146648.17",
+      "geneSymbol": "EGFR",
+      "unit": "TPM"
+    }
+  ],
+  "result": {
+    "ok": true,
+    "error": null,
+    "gencode_id": "ENSG00000146648.17",
+    "raw_count": 54,
+    "tissues": [
+      {
+        "name": "Skin - Sun Exposed (Lower leg)",
+        "name_zh": "皮肤（日照）",
+        "value": 78.337
+      },
+      {
+        "name": "Skin - Not Sun Exposed (Suprapubic)",
+        "name_zh": "皮肤（非日照）",
+        "value": 75.93
+      },
+      {
+        "name": "Cells - Cultured fibroblasts",
+        "name_zh": "成纤维细胞",
+        "value": 60.628
+      },
+      {
+        "name": "Nerve - Tibial",
+        "name_zh": "胫神经",
+        "value": 43.123
+      },
+      {
+        "name": "Vagina",
+        "name_zh": "阴道",
+        "value": 40.603
+      },
+      {
+        "name": "Adipose - Subcutaneous",
+        "name_zh": "皮下脂肪",
+        "value": 39.732
+      },
+      {
+        "name": "Esophagus - Gastroesophageal Junction",
+        "name_zh": "食管胃交界",
+        "value": 34.631
+      },
+      {
+        "name": "Artery - Tibial",
+        "name_zh": "胫动脉",
+        "value": 33.198
+      }
+    ],
+    "top_tissue_en": "Skin - Sun Exposed (Lower leg)",
+    "top_tissue_zh": "皮肤（日照）",
+    "queried_at": "2026-09-29"
+  }
+}

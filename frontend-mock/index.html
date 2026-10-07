@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GenePage Gazette · 基因简报</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page page--index">
+
+    <header class="masthead index-hero">
+      <div class="masthead__brand">
+        <h1 class="masthead__title">
+          GenePage Gazette
+          <span class="masthead__title-zh">基因简报</span>
+        </h1>
+        <p class="masthead__meta">
+          Vol.preview
+          <span class="sep">·</span>
+          数据截至 2026-09-29
+        </p>
+      </div>
+      <hr class="rule-double" />
+      <p class="index-lead">
+        把每个基因做成一份可印刷感的科研短讯页。检索符号或 Ensembl ID，读完一页：导语、要闻三数、身份与通路、表达与结构、变异摘要。本期为静态示意，无实时接口。
+      </p>
+      <div class="index-search">
+        <form class="search" role="search" aria-label="基因搜索（示意）" onsubmit="return false;">
+          <input class="search__input" type="search" name="q" placeholder="输入基因符号，如 TP53、BRCA1…" disabled aria-disabled="true" />
+          <button class="search__btn" type="button" tabindex="-1">检索</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="catalog" aria-labelledby="catalog-label">
+      <h2 class="section-label section-label--zh" id="catalog-label">今日目录</h2>
+      <ul class="catalog__list">
+        <li>
+          <a href="tp53.html">
+            <span class="cat-symbol">TP53</span>
+            <span class="cat-desc">肿瘤抑制 · 基因组守护者</span>
+            <span class="cat-loc">17p13.1</span>
+          </a>
+        </li>
+        <li>
+          <span class="entry-plain">
+            <span class="cat-symbol">BRCA1</span>
+            <span class="cat-desc">同源重组修复 · 遗传性乳腺癌</span>
+            <span class="cat-badge">本期未成页</span>
+          </span>
+        </li>
+        <li>
+          <span class="entry-plain">
+            <span class="cat-symbol">EGFR</span>
+            <span class="cat-desc">受体酪氨酸激酶 · 靶向热点</span>
+            <span class="cat-badge">本期未成页</span>
+          </span>
+        </li>
+        <li>
+          <span class="entry-plain">
+            <span class="cat-symbol">APOE</span>
+            <span class="cat-desc">载脂蛋白 · 脂质与神经</span>
+            <span class="cat-badge">本期未成页</span>
+          </span>
+        </li>
+        <li>
+          <span class="entry-plain">
+            <span class="cat-symbol">CFTR</span>
+            <span class="cat-desc">氯离子通道 · 囊性纤维化</span>
+            <span class="cat-badge">本期未成页</span>
+          </span>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="colophon" style="margin-top:2rem">
+      <p class="colophon__disclaimer">
+        科研/教学信息工具，非医疗器械，不提供诊断建议。
+      </p>
+      <p class="colophon__meta">
+        <span>edition 0.1.0-preview</span>
+        <a href="#" onclick="return false;" title="API 占位">GET /api/search?q=</a>
+      </p>
+    </footer>
+
+    <p class="footer-mini">frontend-mock · Style C · 晨报刊头 × 季刊正文</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,124 @@
+{
+  "chrom": "19",
+  "assembly": "GRCh38",
+  "bands": [
+    {
+      "id": "p13.3",
+      "start": 0,
+      "end": 6900000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p13.2",
+      "start": 6900000,
+      "end": 12600000,
+      "stain": "gpos25"
+    },
+    {
+      "id": "p13.13",
+      "start": 12600000,
+      "end": 13800000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p13.12",
+      "start": 13800000,
+      "end": 16100000,
+      "stain": "gpos25"
+    },
+    {
+      "id": "p13.11",
+      "start": 16100000,
+      "end": 19900000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p12",
+      "start": 19900000,
+      "end": 24200000,
+      "stain": "gvar"
+    },
+    {
+      "id": "p11",
+      "start": 24200000,
+      "end": 26200000,
+      "stain": "acen"
+    },
+    {
+      "id": "q11",
+      "start": 26200000,
+      "end": 28100000,
+      "stain": "acen"
+    },
+    {
+      "id": "q12",
+      "start": 28100000,
+      "end": 31900000,
+      "stain": "gvar"
+    },
+    {
+      "id": "q13.11",
+      "start": 31900000,
+      "end": 35100000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q13.12",
+      "start": 35100000,
+      "end": 37800000,
+      "stain": "gpos25"
+    },
+    {
+      "id": "q13.13",
+      "start": 37800000,
+      "end": 38200000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q13.2",
+      "start": 38200000,
+      "end": 42900000,
+      "stain": "gpos25"
+    },
+    {
+      "id": "q13.31",
+      "start": 42900000,
+      "end": 44700000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q13.32",
+      "start": 44700000,
+      "end": 47500000,
+      "stain": "gpos25"
+    },
+    {
+      "id": "q13.33",
+      "start": 47500000,
+      "end": 50900000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q13.41",
+      "start": 50900000,
+      "end": 53100000,
+      "stain": "gpos25"
+    },
+    {
+      "id": "q13.42",
+      "start": 53100000,
+      "end": 55800000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q13.43",
+      "start": 55800000,
+      "end": 58617616,
+      "stain": "gpos25"
+    }
+  ],
+  "source": "UCSC cytoBandIdeo (hg38 / GRCh38)",
+  "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+  "band_count": 19,
+  "fetched_at": "2026-09-30"
+}

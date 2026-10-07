@@ -1,0 +1,9 @@
+{
+  "symbol": "KRAS",
+  "pathogenic": 92,
+  "likely_pathogenic": 67,
+  "ok": true,
+  "error": null,
+  "method": "esearch count by gene+clinsig",
+  "queried_at": "2026-09-29"
+}

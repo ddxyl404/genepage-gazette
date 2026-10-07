@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TP53 · GenePage Gazette 基因简报</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <article class="page page--gene" data-gene-id="ENSG00000141510" data-symbol="TP53">
+
+    <!-- 1. Masthead -->
+    <header class="masthead">
+      <div class="masthead__brand">
+        <h1 class="masthead__title">
+          GenePage Gazette
+          <span class="masthead__title-zh">基因简报</span>
+        </h1>
+        <p class="masthead__meta">
+          Vol.preview
+          <span class="sep">·</span>
+          数据截至 2026-09-29
+        </p>
+      </div>
+      <hr class="rule-double" />
+      <div class="masthead__gene-row">
+        <div>
+          <p class="masthead__gene" aria-label="基因符号">TP53</p>
+          <p class="masthead__sub">
+            别名：<span class="alias">p53, BCC7, LFS1, TRP53</span>
+            <span class="dot">·</span>
+            <span class="mono masthead__type">17p13.1</span>
+            <span class="dot">·</span>
+            <span class="masthead__type">protein_coding</span>
+          </p>
+        </div>
+        <form class="search" action="index.html" method="get" role="search" aria-label="基因搜索（示意）" onsubmit="return false;">
+          <input class="search__input" type="search" name="q" placeholder="搜索基因符号…" disabled aria-disabled="true" />
+          <button class="search__btn" type="button" tabindex="-1">检索</button>
+        </form>
+      </div>
+    </header>
+
+    <!-- 2. Deck -->
+    <section class="deck" aria-labelledby="deck-label">
+      <span class="deck__label" id="deck-label">导语</span>
+      <p>
+        TP53 编码肿瘤抑制蛋白 p53，常被称作「基因组守护者」：在 DNA 损伤、缺氧等应激下，协调细胞周期阻滞、DNA 修复与凋亡。体细胞突变见于约半数人类实体瘤；胚系致病变异则与 Li-Fraumeni 综合征相关。本期简报汇总其基因组坐标、ClinVar 致病条目量级、组织表达格局与代表性变异，供科研与教学速览——非临床判读。
+      </p>
+    </section>
+
+    <!-- 3. Headline stats 要闻三数 -->
+    <section class="headline-stats" aria-label="要闻三数">
+      <div class="stat">
+        <p class="stat__label">基因组位置</p>
+        <p class="stat__value stat__value--sm">17p13.1</p>
+        <p class="stat__asof">GRCh38 · chr17:7,661,779–7,687,550</p>
+      </div>
+      <div class="stat">
+        <p class="stat__label">ClinVar 致病/可能致病</p>
+        <p class="stat__value">186</p>
+        <p class="stat__asof">as_of 2026-09-01 · P+LP</p>
+      </div>
+      <div class="stat">
+        <p class="stat__label">GTEx 最高表达</p>
+        <p class="stat__value stat__value--sm">皮肤</p>
+        <p class="stat__asof">Skin — Not Sun Exposed · TPM</p>
+      </div>
+    </section>
+
+    <!-- 4. Two-column -->
+    <div class="columns">
+      <div class="col">
+        <section class="block" aria-labelledby="id-label">
+          <h2 class="section-label section-label--zh" id="id-label">身份 / 命名</h2>
+          <dl class="identity-dl">
+            <dt>Ensembl</dt>
+            <dd><span class="mono">ENSG00000141510</span></dd>
+            <dt>NCBI Gene</dt>
+            <dd><span class="mono">7157</span></dd>
+            <dt>HGNC</dt>
+            <dd>TP53 · <span class="mono">HGNC:11998</span></dd>
+            <dt>全称</dt>
+            <dd>tumor protein p53</dd>
+            <dt>组装 / 坐标</dt>
+            <dd><span class="mono">GRCh38 · 17:7661779–7687550</span></dd>
+            <dt>基因类型</dt>
+            <dd>protein_coding</dd>
+          </dl>
+        </section>
+
+        <section class="block" aria-labelledby="pw-label">
+          <h2 class="section-label section-label--zh" id="pw-label">通路（节选）</h2>
+          <ul class="pathways">
+            <li>
+              <span>p53 signaling pathway</span>
+              <a class="ext" href="#" onclick="return false;" title="占位外链">KEGG ↗</a>
+            </li>
+            <li>
+              <span>Cell cycle</span>
+              <a class="ext" href="#" onclick="return false;" title="占位外链">Reactome ↗</a>
+            </li>
+            <li>
+              <span>Apoptosis</span>
+              <a class="ext" href="#" onclick="return false;" title="占位外链">WikiPathways ↗</a>
+            </li>
+            <li>
+              <span>DNA damage response</span>
+              <a class="ext" href="#" onclick="return false;" title="占位外链">GO ↗</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="col">
+        <section class="block" aria-labelledby="expr-label">
+          <h2 class="section-label section-label--zh" id="expr-label">表达（GTEx）</h2>
+          <div class="expr-chart" role="img" aria-label="GTEx 组织表达水平条形图（模拟数据）">
+            <div class="expr-row">
+              <span class="expr-row__name">皮肤（非曝晒）</span>
+              <div class="expr-row__track"><div class="expr-row__bar" style="width:100%"></div></div>
+              <span class="expr-row__val">42.1</span>
+            </div>
+            <div class="expr-row">
+              <span class="expr-row__name">食管黏膜</span>
+              <div class="expr-row__track"><div class="expr-row__bar" style="width:88%"></div></div>
+              <span class="expr-row__val">37.0</span>
+            </div>
+            <div class="expr-row">
+              <span class="expr-row__name">阴道</span>
+              <div class="expr-row__track"><div class="expr-row__bar" style="width:76%"></div></div>
+              <span class="expr-row__val">32.0</span>
+            </div>
+            <div class="expr-row">
+              <span class="expr-row__name">皮肤（曝晒）</span>
+              <div class="expr-row__track"><div class="expr-row__bar" style="width:71%"></div></div>
+              <span class="expr-row__val">29.8</span>
+            </div>
+            <div class="expr-row">
+              <span class="expr-row__name">前列腺</span>
+              <div class="expr-row__track"><div class="expr-row__bar" style="width:58%"></div></div>
+              <span class="expr-row__val">24.4</span>
+            </div>
+            <div class="expr-row">
+              <span class="expr-row__name">睾丸</span>
+              <div class="expr-row__track"><div class="expr-row__bar" style="width:45%"></div></div>
+              <span class="expr-row__val">18.9</span>
+            </div>
+            <div class="expr-row">
+              <span class="expr-row__name">肺</span>
+              <div class="expr-row__track"><div class="expr-row__bar" style="width:38%"></div></div>
+              <span class="expr-row__val">16.0</span>
+            </div>
+            <div class="expr-row">
+              <span class="expr-row__name">全血</span>
+              <div class="expr-row__track"><div class="expr-row__bar" style="width:22%"></div></div>
+              <span class="expr-row__val">9.3</span>
+            </div>
+          </div>
+          <div class="legend">
+            <span><span class="legend__swatch" aria-hidden="true"></span>中位 TPM（模拟）</span>
+            <span>来源：GTEx · unit: TPM</span>
+          </div>
+          <p class="figure-caption">
+            <strong>图 1 · 组织表达格局</strong>
+            水平条显示选定组织中位转录水平（TPM）。TP53 在多种上皮组织中维持中等偏高表达，符合其作为应激响应转录因子的广泛看护角色。数值为前端示意，非实时拉取；正式版将对接 <span class="mono" style="font-family:var(--font-mono);font-size:0.85em">expression.tissues[]</span>。
+          </p>
+        </section>
+
+        <section class="block" aria-labelledby="struct-label">
+          <h2 class="section-label section-label--zh" id="struct-label">结构</h2>
+          <div class="structure">
+            <div class="structure__frame">
+              <div class="structure__placeholder">
+                <em>structure.preview_image</em>
+                本期未附静态渲染图<br />占位框 · 正式版嵌入 AlphaFold / PDB 缩略
+              </div>
+            </div>
+            <div class="structure__footer">
+              <span>AF-P04637-F1</span>
+              <a href="https://alphafold.ebi.ac.uk/entry/P04637" target="_blank" rel="noopener noreferrer">在 AlphaFold DB 打开 ↗</a>
+            </div>
+          </div>
+          <p class="figure-caption">
+            <strong>图 2 · 结构外链</strong>
+            p53 DNA 结合域等区域在 AlphaFold DB（UniProt P04637）可查。三维交互为增强功能，不挡首屏文字阅读。
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <!-- 5. Variants summary table -->
+    <section class="variants" aria-labelledby="var-label">
+      <h2 class="section-label section-label--zh" id="var-label">变异摘要</h2>
+      <div class="table-wrap">
+        <table class="variants-table">
+          <thead>
+            <tr>
+              <th scope="col">rsID / 标识</th>
+              <th scope="col">HGVS（蛋白）</th>
+              <th scope="col">ClinVar 意义</th>
+              <th scope="col">备注</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="mono">rs28934578</td>
+              <td class="mono">p.Arg175His</td>
+              <td class="sig-plp">Pathogenic</td>
+              <td>经典 DNA 结合域热点</td>
+            </tr>
+            <tr>
+              <td class="mono">rs121912651</td>
+              <td class="mono">p.Arg248Gln</td>
+              <td class="sig-plp">Pathogenic</td>
+              <td>热点；多瘤种报道</td>
+            </tr>
+            <tr>
+              <td class="mono">rs28934576</td>
+              <td class="mono">p.Arg273His</td>
+              <td class="sig-plp">Pathogenic</td>
+              <td>DNA 接触面</td>
+            </tr>
+            <tr>
+              <td class="mono">rs11540652</td>
+              <td class="mono">p.Arg282Trp</td>
+              <td class="sig-plp">Pathogenic</td>
+              <td>结构稳定相关</td>
+            </tr>
+            <tr>
+              <td class="mono">rs1042522</td>
+              <td class="mono">p.Pro72Arg</td>
+              <td class="sig-vus">Benign / 多态</td>
+              <td>常见多态；非致病判据</td>
+            </tr>
+            <tr>
+              <td class="mono">—</td>
+              <td class="mono">p.Gly245Ser</td>
+              <td class="sig-plp">Likely pathogenic</td>
+              <td>示意条目</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">
+        摘要：ClinVar 致病 <strong>112</strong> · 可能致病 <strong>74</strong>（合计 P/LP ≈ 186，与要闻数字一致；模拟拆分）。
+        本表仅列示意位点，非完整目录。脚注：<em>非诊断结论</em>（<span class="mono" style="font-family:var(--font-mono);font-size:0.9em">variants_summary.note_zh</span>）。
+      </p>
+    </section>
+
+    <!-- 6. Colophon -->
+    <footer class="colophon">
+      <p class="colophon__disclaimer">
+        科研/教学信息工具，非医疗器械，不提供诊断建议。
+      </p>
+      <p class="colophon__meta">
+        <span>edition 0.1.0-preview</span>
+        <span>data_as_of 2026-09-29</span>
+        <a href="#" onclick="return false;" title="API 占位">GET /api/gene/TP53</a>
+      </p>
+      <p class="colophon__sources">
+        来源示意：Ensembl · ClinVar · GTEx · AlphaFold DB · HGNC　·　字段对齐 <code style="font-family:var(--font-mono);font-size:0.9em">docs/WIREFRAME_AND_API.md</code>
+      </p>
+    </footer>
+
+  </article>
+</body>
+</html>

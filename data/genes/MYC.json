@@ -1,0 +1,230 @@
+{
+  "id": "ENSG00000136997",
+  "symbol": "MYC",
+  "aliases": [
+    "MRTL",
+    "MYCC",
+    "bHLHe39",
+    "c-Myc"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "8",
+    "start": 127735434,
+    "end": 127742951,
+    "assembly": "GRCh38"
+  },
+  "deck_zh": "MYC 编码转录因子 c-Myc，广泛调控细胞生长、代谢与增殖相关基因表达。染色体易位与扩增在多种肿瘤模型中被研究。本条目提供身份、通路与表达占位摘要。",
+  "deck_en": "MYC encodes the transcription factor c-Myc, which broadly regulates genes involved in cell growth, metabolism, and proliferation. Chromosomal translocations and amplifications are studied across many tumor models. This entry provides an identity, pathway, and expression abstract.",
+  "headline_stats": [
+    {
+      "key": "location",
+      "label_zh": "基因组位置",
+      "value": "8q24.21"
+    },
+    {
+      "key": "clinvar_plp",
+      "label_zh": "ClinVar 致病/可能致病",
+      "value": 58,
+      "as_of": "2026-09-29"
+    },
+    {
+      "key": "top_tissue",
+      "label_zh": "GTEx 最高表达",
+      "value": "皮肤（非日照）",
+      "as_of": "2026-09-29",
+      "detail": "Skin - Not Sun Exposed (Suprapubic)"
+    }
+  ],
+  "pathways": [
+    {
+      "name": "MAPK signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04010"
+    },
+    {
+      "name": "ErbB signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04012"
+    },
+    {
+      "name": "Cell cycle - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04110"
+    },
+    {
+      "name": "PI3K-Akt signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04151"
+    },
+    {
+      "name": "Cellular senescence - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04218"
+    }
+  ],
+  "expression": {
+    "source": "GTEx",
+    "unit": "TPM",
+    "tissues": [
+      {
+        "name": "Skin - Not Sun Exposed (Suprapubic)",
+        "name_zh": "皮肤（非日照）",
+        "value": 298.818
+      },
+      {
+        "name": "Fallopian Tube",
+        "name_zh": "输卵管",
+        "value": 238.629
+      },
+      {
+        "name": "Adipose - Visceral (Omentum)",
+        "name_zh": "内脏脂肪",
+        "value": 208.539
+      },
+      {
+        "name": "Cells - EBV-transformed lymphocytes",
+        "name_zh": "淋巴细胞",
+        "value": 195.316
+      },
+      {
+        "name": "Cells - Cultured fibroblasts",
+        "name_zh": "成纤维细胞",
+        "value": 193.207
+      },
+      {
+        "name": "Skin - Sun Exposed (Lower leg)",
+        "name_zh": "皮肤（日照）",
+        "value": 189.2
+      },
+      {
+        "name": "Breast - Mammary Tissue",
+        "name_zh": "乳腺",
+        "value": 147.195
+      },
+      {
+        "name": "Adipose - Subcutaneous",
+        "name_zh": "皮下脂肪",
+        "value": 119.964
+      }
+    ],
+    "caption_zh": "图 · GTEx 中位表达（TPM）· 组织水平排行",
+    "caption_en": "Fig. · GTEx median expression (TPM) · ranked horizontal bars"
+  },
+  "structure": {
+    "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P01106",
+    "preview_image": "cache/alphafold/MYC.png",
+    "caption_zh": "图 · AlphaFold 结构预测",
+    "caption_en": "Fig. · AlphaFold structure prediction"
+  },
+  "variants_summary": {
+    "clinvar_pathogenic": 56,
+    "clinvar_likely_pathogenic": 2,
+    "note_zh": "非诊断结论；计数来自 ClinVar E-utilities 检索，非正式导出 tar。本期无逐条收录。"
+  },
+  "confidence": {
+    "identity": "high",
+    "expression": "high",
+    "clinvar": "high"
+  },
+  "colophon": {
+    "data_as_of": "2026-09-30",
+    "edition": "0.3.3-p39",
+    "disclaimer_zh": "科研/教学信息工具，非医疗器械，不提供诊断建议。"
+  },
+  "sources": [
+    {
+      "name": "MyGene.info",
+      "url": "https://mygene.info",
+      "version": "v3; queried 2026-09-29",
+      "confidence": "high"
+    },
+    {
+      "name": "Ensembl / GRCh38 via MyGene",
+      "url": "https://www.ensembl.org",
+      "version": "GRCh38",
+      "confidence": "high"
+    },
+    {
+      "name": "KEGG via MyGene",
+      "url": "https://www.kegg.jp",
+      "version": "via MyGene pathway.kegg",
+      "confidence": "medium"
+    },
+    {
+      "name": "AlphaFold DB",
+      "url": "https://alphafold.ebi.ac.uk/entry/P01106",
+      "version": "2026-09-30; entry by UniProt; local CA-trace preview",
+      "confidence": "high",
+      "note": "preview_image=cache/alphafold/MYC.png（本地缓存；由 PDB CA 迹线或 PAE 图生成）"
+    },
+    {
+      "name": "ClinVar",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "version": "2026-09-29; esearch count by gene+clinsig",
+      "confidence": "high"
+    },
+    {
+      "name": "GTEx",
+      "url": "https://gtexportal.org",
+      "version": "2026-09-29; GTEx Portal API v2 medianGeneExpression",
+      "confidence": "high",
+      "note": "组织中文（name_zh / top_tissue.value）为展示映射，非 GTEx 官方字段。"
+    },
+    {
+      "name": "UniProt domains",
+      "url": "https://www.uniprot.org/uniprotkb/P01106",
+      "version": "2026-09-30; Swiss-Prot features (Domain/Region/…)",
+      "confidence": "high"
+    },
+    {
+      "name": "UCSC cytoBandIdeo",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+      "version": "hg38 / GRCh38; 2026-09-30",
+      "confidence": "high",
+      "note": "figure_id=cytobands/8.json"
+    }
+  ],
+  "variants_detail": [],
+  "cytoband": {
+    "chrom": "8",
+    "start": 127735434,
+    "end": 127742951,
+    "assembly": "GRCh38",
+    "band_label": "8q24.21",
+    "figure_id": "cytobands/8.json"
+  },
+  "domains": [
+    {
+      "id": "up:P01106:Motif:115-123",
+      "name": "9aaTAD",
+      "name_zh": "9aaTAD",
+      "start": 115,
+      "end": 123,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P01106"
+    },
+    {
+      "id": "up:P01106:Domain:369-421",
+      "name": "bHLH",
+      "name_zh": "螺旋-环-螺旋域",
+      "start": 369,
+      "end": 421,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P01106"
+    },
+    {
+      "id": "up:P01106:Region:369-382",
+      "name": "Basic motif",
+      "name_zh": "Basic motif",
+      "start": 369,
+      "end": 382,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P01106"
+    },
+    {
+      "id": "up:P01106:Motif:370-379",
+      "name": "UBR5-degron",
+      "name_zh": "UBR5-degron",
+      "start": 370,
+      "end": 379,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P01106"
+    }
+  ]
+}

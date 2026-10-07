@@ -1,0 +1,9 @@
+{
+  "symbol": "BRCA2",
+  "pathogenic": 5610,
+  "likely_pathogenic": 798,
+  "ok": true,
+  "error": null,
+  "method": "esearch count by gene+clinsig",
+  "queried_at": "2026-09-29"
+}

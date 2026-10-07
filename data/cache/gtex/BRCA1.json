@@ -1,0 +1,544 @@
+{
+  "symbol": "BRCA1",
+  "ensembl_id": "ENSG00000012048",
+  "gencode_id": "ENSG00000012048.20",
+  "median_rows": [
+    {
+      "median": 1.48181,
+      "tissueSiteDetailId": "Adipose_Subcutaneous",
+      "ontologyId": "UBERON:0002190",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.12221,
+      "tissueSiteDetailId": "Adipose_Visceral_Omentum",
+      "ontologyId": "UBERON:0010414",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.959728,
+      "tissueSiteDetailId": "Adrenal_Gland",
+      "ontologyId": "UBERON:0002369",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.1471,
+      "tissueSiteDetailId": "Artery_Aorta",
+      "ontologyId": "UBERON:0001496",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.25272,
+      "tissueSiteDetailId": "Artery_Coronary",
+      "ontologyId": "UBERON:0001621",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.1066,
+      "tissueSiteDetailId": "Artery_Tibial",
+      "ontologyId": "UBERON:0007610",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.78635,
+      "tissueSiteDetailId": "Bladder",
+      "ontologyId": "UBERON:0001255",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.954252,
+      "tissueSiteDetailId": "Brain_Amygdala",
+      "ontologyId": "UBERON:0001876",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.605128,
+      "tissueSiteDetailId": "Brain_Anterior_cingulate_cortex_BA24",
+      "ontologyId": "UBERON:0009835",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.09876,
+      "tissueSiteDetailId": "Brain_Caudate_basal_ganglia",
+      "ontologyId": "UBERON:0001873",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.681728,
+      "tissueSiteDetailId": "Brain_Cerebellar_Hemisphere",
+      "ontologyId": "UBERON:0002037",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.743863,
+      "tissueSiteDetailId": "Brain_Cerebellum",
+      "ontologyId": "UBERON:0002037",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.844915,
+      "tissueSiteDetailId": "Brain_Cortex",
+      "ontologyId": "UBERON:0001870",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.812124,
+      "tissueSiteDetailId": "Brain_Frontal_Cortex_BA9",
+      "ontologyId": "UBERON:0009834",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.992597,
+      "tissueSiteDetailId": "Brain_Hippocampus",
+      "ontologyId": "UBERON:0001954",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.05341,
+      "tissueSiteDetailId": "Brain_Hypothalamus",
+      "ontologyId": "UBERON:0001898",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.8826309999999999,
+      "tissueSiteDetailId": "Brain_Nucleus_accumbens_basal_ganglia",
+      "ontologyId": "UBERON:0001882",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.0998299999999999,
+      "tissueSiteDetailId": "Brain_Putamen_basal_ganglia",
+      "ontologyId": "UBERON:0001874",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.37106,
+      "tissueSiteDetailId": "Brain_Spinal_cord_cervical_c-1",
+      "ontologyId": "UBERON:0006469",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.40696,
+      "tissueSiteDetailId": "Brain_Substantia_nigra",
+      "ontologyId": "UBERON:0002038",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.31646,
+      "tissueSiteDetailId": "Breast_Mammary_Tissue",
+      "ontologyId": "UBERON:0008367",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.958069999999999,
+      "tissueSiteDetailId": "Cells_Cultured_fibroblasts",
+      "ontologyId": "EFO:0002009",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 19.7684,
+      "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+      "ontologyId": "EFO:0000572",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.2558599999999998,
+      "tissueSiteDetailId": "Cervix_Ectocervix",
+      "ontologyId": "UBERON:0012249",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.8565900000000002,
+      "tissueSiteDetailId": "Cervix_Endocervix",
+      "ontologyId": "UBERON:0000458",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.1118,
+      "tissueSiteDetailId": "Colon_Sigmoid",
+      "ontologyId": "UBERON:0001159",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.97282,
+      "tissueSiteDetailId": "Colon_Transverse",
+      "ontologyId": "UBERON:0001157",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.71623,
+      "tissueSiteDetailId": "Esophagus_Gastroesophageal_Junction",
+      "ontologyId": "UBERON:0004550",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.62378,
+      "tissueSiteDetailId": "Esophagus_Mucosa",
+      "ontologyId": "UBERON:0006920",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.75865,
+      "tissueSiteDetailId": "Esophagus_Muscularis",
+      "ontologyId": "UBERON:0004648",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.0415099999999997,
+      "tissueSiteDetailId": "Fallopian_Tube",
+      "ontologyId": "UBERON:0003889",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.16267,
+      "tissueSiteDetailId": "Heart_Atrial_Appendage",
+      "ontologyId": "UBERON:0006631",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.8766440000000001,
+      "tissueSiteDetailId": "Heart_Left_Ventricle",
+      "ontologyId": "UBERON:0006566",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.440931,
+      "tissueSiteDetailId": "Kidney_Cortex",
+      "ontologyId": "UBERON:0001225",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.587479,
+      "tissueSiteDetailId": "Kidney_Medulla",
+      "ontologyId": "UBERON:0001293",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.9343049999999999,
+      "tissueSiteDetailId": "Liver",
+      "ontologyId": "UBERON:0001114",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.74144,
+      "tissueSiteDetailId": "Lung",
+      "ontologyId": "UBERON:0008952",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.2805799999999998,
+      "tissueSiteDetailId": "Minor_Salivary_Gland",
+      "ontologyId": "UBERON:0006330",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.8946850000000001,
+      "tissueSiteDetailId": "Muscle_Skeletal",
+      "ontologyId": "UBERON:0011907",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.54941,
+      "tissueSiteDetailId": "Nerve_Tibial",
+      "ontologyId": "UBERON:0001323",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.5382,
+      "tissueSiteDetailId": "Ovary",
+      "ontologyId": "UBERON:0000992",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.506734,
+      "tissueSiteDetailId": "Pancreas",
+      "ontologyId": "UBERON:0001150",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.97239,
+      "tissueSiteDetailId": "Pituitary",
+      "ontologyId": "UBERON:0000007",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.38084,
+      "tissueSiteDetailId": "Prostate",
+      "ontologyId": "UBERON:0002367",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.97328,
+      "tissueSiteDetailId": "Skin_Not_Sun_Exposed_Suprapubic",
+      "ontologyId": "UBERON:0036149",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.76098,
+      "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+      "ontologyId": "UBERON:0004264",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.15272,
+      "tissueSiteDetailId": "Small_Intestine_Terminal_Ileum",
+      "ontologyId": "UBERON:0001211",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.29029,
+      "tissueSiteDetailId": "Spleen",
+      "ontologyId": "UBERON:0002106",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 1.15501,
+      "tissueSiteDetailId": "Stomach",
+      "ontologyId": "UBERON:0000945",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 10.9245,
+      "tissueSiteDetailId": "Testis",
+      "ontologyId": "UBERON:0000473",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 4.40765,
+      "tissueSiteDetailId": "Thyroid",
+      "ontologyId": "UBERON:0002046",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.2741700000000002,
+      "tissueSiteDetailId": "Uterus",
+      "ontologyId": "UBERON:0000995",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 2.27155,
+      "tissueSiteDetailId": "Vagina",
+      "ontologyId": "UBERON:0000996",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    },
+    {
+      "median": 0.882597,
+      "tissueSiteDetailId": "Whole_Blood",
+      "ontologyId": "UBERON:0013756",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000012048.20",
+      "geneSymbol": "BRCA1",
+      "unit": "TPM"
+    }
+  ],
+  "result": {
+    "ok": true,
+    "error": null,
+    "gencode_id": "ENSG00000012048.20",
+    "raw_count": 54,
+    "tissues": [
+      {
+        "name": "Cells - EBV-transformed lymphocytes",
+        "name_zh": "淋巴细胞",
+        "value": 19.768
+      },
+      {
+        "name": "Testis",
+        "name_zh": "睾丸",
+        "value": 10.925
+      },
+      {
+        "name": "Cells - Cultured fibroblasts",
+        "name_zh": "成纤维细胞",
+        "value": 6.958
+      },
+      {
+        "name": "Thyroid",
+        "name_zh": "甲状腺",
+        "value": 4.408
+      },
+      {
+        "name": "Esophagus - Mucosa",
+        "name_zh": "食管黏膜",
+        "value": 2.624
+      },
+      {
+        "name": "Nerve - Tibial",
+        "name_zh": "胫神经",
+        "value": 2.549
+      },
+      {
+        "name": "Brain - Spinal cord (cervical c-1)",
+        "name_zh": "脊髓",
+        "value": 2.371
+      },
+      {
+        "name": "Spleen",
+        "name_zh": "脾脏",
+        "value": 2.29
+      }
+    ],
+    "top_tissue_en": "Cells - EBV-transformed lymphocytes",
+    "top_tissue_zh": "淋巴细胞",
+    "queried_at": "2026-09-29"
+  }
+}

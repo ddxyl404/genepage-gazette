@@ -1,0 +1,265 @@
+{
+  "id": "ENSG00000142192",
+  "symbol": "APP",
+  "aliases": [
+    "AAA",
+    "ABETA",
+    "ABPP",
+    "AD1",
+    "APPI",
+    "CTFgamma",
+    "CVAP",
+    "PN-II",
+    "PN2",
+    "alpha-sAPP",
+    "preA4"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "21",
+    "start": 25880535,
+    "end": 26171128,
+    "assembly": "GRCh38"
+  },
+  "deck_zh": "APP 编码淀粉样前体蛋白，经酶切可产生 Aβ 肽段，是阿尔茨海默病分子机制研究中的关键分子之一。本条目汇总其在脑组织中的表达占位与相关通路，面向科研与教学。",
+  "deck_en": "APP encodes amyloid precursor protein; proteolytic cleavage can yield Aβ peptides, making it a key molecule in Alzheimer disease mechanism research. This entry summarizes brain-tissue expression snapshots and related pathways for research and teaching.",
+  "headline_stats": [
+    {
+      "key": "location",
+      "label_zh": "基因组位置",
+      "value": "21q21.3"
+    },
+    {
+      "key": "clinvar_plp",
+      "label_zh": "ClinVar 致病/可能致病",
+      "value": 101,
+      "as_of": "2026-09-29"
+    },
+    {
+      "key": "top_tissue",
+      "label_zh": "GTEx 最高表达",
+      "value": "额叶皮层",
+      "as_of": "2026-09-29",
+      "detail": "Brain - Frontal Cortex (BA9)"
+    }
+  ],
+  "pathways": [
+    {
+      "name": "Serotonergic synapse - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04726"
+    },
+    {
+      "name": "Alzheimer disease - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05010"
+    },
+    {
+      "name": "Pathways of neurodegeneration - multiple diseases - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05022"
+    }
+  ],
+  "expression": {
+    "source": "GTEx",
+    "unit": "TPM",
+    "tissues": [
+      {
+        "name": "Brain - Frontal Cortex (BA9)",
+        "name_zh": "额叶皮层",
+        "value": 561.14
+      },
+      {
+        "name": "Thyroid",
+        "name_zh": "甲状腺",
+        "value": 502.098
+      },
+      {
+        "name": "Brain - Spinal cord (cervical c-1)",
+        "name_zh": "脊髓",
+        "value": 479.939
+      },
+      {
+        "name": "Artery - Aorta",
+        "name_zh": "主动脉",
+        "value": 458.759
+      },
+      {
+        "name": "Brain - Cerebellar Hemisphere",
+        "name_zh": "小脑半球",
+        "value": 440.722
+      },
+      {
+        "name": "Cells - Cultured fibroblasts",
+        "name_zh": "成纤维细胞",
+        "value": 399.105
+      },
+      {
+        "name": "Kidney - Medulla",
+        "name_zh": "肾髓质",
+        "value": 370.653
+      },
+      {
+        "name": "Brain - Nucleus accumbens (basal ganglia)",
+        "name_zh": "伏隔核",
+        "value": 359.255
+      }
+    ],
+    "caption_zh": "图 · GTEx 中位表达（TPM）· 组织水平排行",
+    "caption_en": "Fig. · GTEx median expression (TPM) · ranked horizontal bars"
+  },
+  "structure": {
+    "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P05067",
+    "preview_image": "cache/alphafold/APP.png",
+    "caption_zh": "图 · AlphaFold 结构预测",
+    "caption_en": "Fig. · AlphaFold structure prediction"
+  },
+  "variants_summary": {
+    "clinvar_pathogenic": 88,
+    "clinvar_likely_pathogenic": 13,
+    "note_zh": "非诊断结论；计数来自 ClinVar E-utilities 检索，非正式导出 tar。本期无逐条收录。"
+  },
+  "confidence": {
+    "identity": "high",
+    "expression": "high",
+    "clinvar": "high"
+  },
+  "colophon": {
+    "data_as_of": "2026-09-30",
+    "edition": "0.3.3-p39",
+    "disclaimer_zh": "科研/教学信息工具，非医疗器械，不提供诊断建议。"
+  },
+  "sources": [
+    {
+      "name": "MyGene.info",
+      "url": "https://mygene.info",
+      "version": "v3; queried 2026-09-29",
+      "confidence": "high"
+    },
+    {
+      "name": "Ensembl / GRCh38 via MyGene",
+      "url": "https://www.ensembl.org",
+      "version": "GRCh38",
+      "confidence": "high"
+    },
+    {
+      "name": "KEGG via MyGene",
+      "url": "https://www.kegg.jp",
+      "version": "via MyGene pathway.kegg",
+      "confidence": "medium"
+    },
+    {
+      "name": "AlphaFold DB",
+      "url": "https://alphafold.ebi.ac.uk/entry/P05067",
+      "version": "2026-09-30; entry by UniProt; local CA-trace preview",
+      "confidence": "high",
+      "note": "preview_image=cache/alphafold/APP.png（本地缓存；由 PDB CA 迹线或 PAE 图生成）"
+    },
+    {
+      "name": "ClinVar",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "version": "2026-09-29; esearch count by gene+clinsig",
+      "confidence": "high"
+    },
+    {
+      "name": "GTEx",
+      "url": "https://gtexportal.org",
+      "version": "2026-09-29; GTEx Portal API v2 medianGeneExpression",
+      "confidence": "high",
+      "note": "组织中文（name_zh / top_tissue.value）为展示映射，非 GTEx 官方字段。"
+    },
+    {
+      "name": "UniProt domains",
+      "url": "https://www.uniprot.org/uniprotkb/P05067",
+      "version": "2026-09-30; Swiss-Prot features (Domain/Region/…)",
+      "confidence": "high"
+    },
+    {
+      "name": "UCSC cytoBandIdeo",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+      "version": "hg38 / GRCh38; 2026-09-30",
+      "confidence": "high",
+      "note": "figure_id=cytobands/21.json"
+    }
+  ],
+  "variants_detail": [],
+  "cytoband": {
+    "chrom": "21",
+    "start": 25880535,
+    "end": 26171128,
+    "assembly": "GRCh38",
+    "band_label": "21q21.3",
+    "figure_id": "cytobands/21.json"
+  },
+  "domains": [
+    {
+      "id": "up:P05067:Signal:1-17",
+      "name": "Signal peptide",
+      "name_zh": "信号肽",
+      "start": 1,
+      "end": 17,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P05067"
+    },
+    {
+      "id": "up:P05067:Topological domain:18-701",
+      "name": "Extracellular",
+      "name_zh": "胞外区",
+      "start": 18,
+      "end": 701,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P05067"
+    },
+    {
+      "id": "up:P05067:Domain:28-189",
+      "name": "E1",
+      "name_zh": "E1",
+      "start": 28,
+      "end": 189,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P05067"
+    },
+    {
+      "id": "up:P05067:Domain:291-341",
+      "name": "BPTI/Kunitz inhibitor",
+      "name_zh": "BPTI/Kunitz inhibitor",
+      "start": 291,
+      "end": 341,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P05067"
+    },
+    {
+      "id": "up:P05067:Motif:344-365",
+      "name": "OX-2",
+      "name_zh": "OX-2",
+      "start": 344,
+      "end": 365,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P05067"
+    },
+    {
+      "id": "up:P05067:Domain:374-565",
+      "name": "E2",
+      "name_zh": "E2",
+      "start": 374,
+      "end": 565,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P05067"
+    },
+    {
+      "id": "up:P05067:Transmembrane:702-722",
+      "name": "Transmembrane (Helical)",
+      "name_zh": "跨膜区",
+      "start": 702,
+      "end": 722,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P05067"
+    },
+    {
+      "id": "up:P05067:Topological domain:723-770",
+      "name": "Cytoplasmic",
+      "name_zh": "胞质区",
+      "start": 723,
+      "end": 770,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P05067"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Dependencies / build
+node_modules/
+web/node_modules/
+web/.next/
+web/tsconfig.tsbuildinfo
+api/.venv/
+**/__pycache__/
+**/*.pyc
+**/.venv/
+
+# Local ops
+.local-pids
+logs/
+backups/*.tgz
+!backups/.gitkeep
+
+# Editor / OS
+.DS_Store
+*.swp
+.env
+.env.*
+!.env.example

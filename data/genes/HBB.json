@@ -1,0 +1,190 @@
+{
+  "id": "ENSG00000244734",
+  "symbol": "HBB",
+  "aliases": [
+    "CD113t-C",
+    "ECYT6",
+    "beta-globin"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "11",
+    "start": 5225464,
+    "end": 5229395,
+    "assembly": "GRCh38"
+  },
+  "deck_zh": "HBB 编码血红蛋白 β 链，是红细胞携氧功能的核心组分。其变异谱在血红蛋白病与群体遗传学教学中具有代表性。本条目提供基因组位置、通路与全血高表达等概貌信息。",
+  "deck_en": "HBB encodes the hemoglobin β chain, a core component of erythrocyte oxygen transport. Its variant spectrum is representative in hemoglobinopathy and population-genetics teaching. This entry outlines genomic location, pathways, and high whole-blood expression.",
+  "headline_stats": [
+    {
+      "key": "location",
+      "label_zh": "基因组位置",
+      "value": "11p15.4"
+    },
+    {
+      "key": "clinvar_plp",
+      "label_zh": "ClinVar 致病/可能致病",
+      "value": 553,
+      "as_of": "2026-09-29"
+    },
+    {
+      "key": "top_tissue",
+      "label_zh": "GTEx 最高表达",
+      "value": "全血",
+      "as_of": "2026-09-29",
+      "detail": "Whole Blood"
+    }
+  ],
+  "pathways": [
+    {
+      "name": "African trypanosomiasis - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05143"
+    },
+    {
+      "name": "Malaria - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05144"
+    }
+  ],
+  "expression": {
+    "source": "GTEx",
+    "unit": "TPM",
+    "tissues": [
+      {
+        "name": "Whole Blood",
+        "name_zh": "全血",
+        "value": 267405.0
+      },
+      {
+        "name": "Spleen",
+        "name_zh": "脾脏",
+        "value": 3152.11
+      },
+      {
+        "name": "Lung",
+        "name_zh": "肺",
+        "value": 1300.84
+      },
+      {
+        "name": "Adipose - Visceral (Omentum)",
+        "name_zh": "内脏脂肪",
+        "value": 607.66
+      },
+      {
+        "name": "Kidney - Medulla",
+        "name_zh": "肾髓质",
+        "value": 605.695
+      },
+      {
+        "name": "Kidney - Cortex",
+        "name_zh": "肾皮质",
+        "value": 512.728
+      },
+      {
+        "name": "Pituitary",
+        "name_zh": "垂体",
+        "value": 480.27
+      },
+      {
+        "name": "Brain - Spinal cord (cervical c-1)",
+        "name_zh": "脊髓",
+        "value": 458.528
+      }
+    ],
+    "caption_zh": "图 · GTEx 中位表达（TPM）· 组织水平排行",
+    "caption_en": "Fig. · GTEx median expression (TPM) · ranked horizontal bars"
+  },
+  "structure": {
+    "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P68871",
+    "preview_image": "cache/alphafold/HBB.png",
+    "caption_zh": "图 · AlphaFold 结构预测",
+    "caption_en": "Fig. · AlphaFold structure prediction"
+  },
+  "variants_summary": {
+    "clinvar_pathogenic": 425,
+    "clinvar_likely_pathogenic": 128,
+    "note_zh": "非诊断结论；计数来自 ClinVar E-utilities 检索，非正式导出 tar。本期无逐条收录。"
+  },
+  "confidence": {
+    "identity": "high",
+    "expression": "high",
+    "clinvar": "high"
+  },
+  "colophon": {
+    "data_as_of": "2026-09-30",
+    "edition": "0.3.3-p39",
+    "disclaimer_zh": "科研/教学信息工具，非医疗器械，不提供诊断建议。"
+  },
+  "sources": [
+    {
+      "name": "MyGene.info",
+      "url": "https://mygene.info",
+      "version": "v3; queried 2026-09-29",
+      "confidence": "high"
+    },
+    {
+      "name": "Ensembl / GRCh38 via MyGene",
+      "url": "https://www.ensembl.org",
+      "version": "GRCh38",
+      "confidence": "high"
+    },
+    {
+      "name": "KEGG via MyGene",
+      "url": "https://www.kegg.jp",
+      "version": "via MyGene pathway.kegg",
+      "confidence": "medium"
+    },
+    {
+      "name": "AlphaFold DB",
+      "url": "https://alphafold.ebi.ac.uk/entry/P68871",
+      "version": "2026-09-30; entry by UniProt; local CA-trace preview",
+      "confidence": "high",
+      "note": "preview_image=cache/alphafold/HBB.png（本地缓存；由 PDB CA 迹线或 PAE 图生成）"
+    },
+    {
+      "name": "ClinVar",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "version": "2026-09-29; esearch count by gene+clinsig",
+      "confidence": "high"
+    },
+    {
+      "name": "GTEx",
+      "url": "https://gtexportal.org",
+      "version": "2026-09-29; GTEx Portal API v2 medianGeneExpression",
+      "confidence": "high",
+      "note": "组织中文（name_zh / top_tissue.value）为展示映射，非 GTEx 官方字段。"
+    },
+    {
+      "name": "UniProt domains",
+      "url": "https://www.uniprot.org/uniprotkb/P68871",
+      "version": "2026-09-30; Swiss-Prot features (Domain/Region/…)",
+      "confidence": "medium"
+    },
+    {
+      "name": "UCSC cytoBandIdeo",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+      "version": "hg38 / GRCh38; 2026-09-30",
+      "confidence": "high",
+      "note": "figure_id=cytobands/11.json"
+    }
+  ],
+  "variants_detail": [],
+  "cytoband": {
+    "chrom": "11",
+    "start": 5225464,
+    "end": 5229395,
+    "assembly": "GRCh38",
+    "band_label": "11p15.4",
+    "figure_id": "cytobands/11.json"
+  },
+  "domains": [
+    {
+      "id": "up:P68871:Domain:3-147",
+      "name": "Globin",
+      "name_zh": "珠蛋白域",
+      "start": 3,
+      "end": 147,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P68871"
+    }
+  ]
+}

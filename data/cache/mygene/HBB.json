@@ -1,0 +1,77 @@
+{
+  "symbol": "HBB",
+  "ok": true,
+  "error": null,
+  "queried_at": "2026-09-29",
+  "id": "ENSG00000244734",
+  "name": "hemoglobin subunit beta",
+  "aliases": [
+    "CD113t-C",
+    "ECYT6",
+    "beta-globin"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "11",
+    "start": 5225464,
+    "end": 5229395,
+    "assembly": "GRCh38"
+  },
+  "uniprot": "P68871",
+  "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P68871",
+  "pathways": [
+    {
+      "name": "African trypanosomiasis - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05143"
+    },
+    {
+      "name": "Malaria - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05144"
+    }
+  ],
+  "summary": "The alpha (HBA) and beta (HBB) loci determine the structure of the 2 types of polypeptide chains in adult hemoglobin, Hb A. The normal adult hemoglobin tetramer consists of two alpha chains and two beta chains. Mutant beta globin causes sickle cell anemia. Absence of beta chain causes beta-zero-thalassemia. Reduced amounts of detectable beta globin causes beta-plus-thalassemia. The order of the genes in the beta-globin cluster is 5'-epsilon -- gamma-G -- gamma-A -- delta -- beta--3'. [provided by RefSeq, Jul 2008].",
+  "raw_hit": {
+    "_id": "3043",
+    "_score": 22.701494,
+    "alias": [
+      "CD113t-C",
+      "ECYT6",
+      "beta-globin"
+    ],
+    "ensembl": {
+      "gene": "ENSG00000244734"
+    },
+    "genomic_pos": {
+      "chr": "11",
+      "end": 5229395,
+      "ensemblgene": "ENSG00000244734",
+      "start": 5225464,
+      "strand": -1
+    },
+    "name": "hemoglobin subunit beta",
+    "pathway": {
+      "kegg": [
+        {
+          "id": "hsa05143",
+          "name": "African trypanosomiasis - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05144",
+          "name": "Malaria - Homo sapiens (human)"
+        }
+      ]
+    },
+    "summary": "The alpha (HBA) and beta (HBB) loci determine the structure of the 2 types of polypeptide chains in adult hemoglobin, Hb A. The normal adult hemoglobin tetramer consists of two alpha chains and two beta chains. Mutant beta globin causes sickle cell anemia. Absence of beta chain causes beta-zero-thalassemia. Reduced amounts of detectable beta globin causes beta-plus-thalassemia. The order of the genes in the beta-globin cluster is 5'-epsilon -- gamma-G -- gamma-A -- delta -- beta--3'. [provided by RefSeq, Jul 2008].",
+    "symbol": "HBB",
+    "type_of_gene": "protein-coding",
+    "uniprot": {
+      "Swiss-Prot": "P68871",
+      "TrEMBL": [
+        "A0A2R8Y7R2",
+        "D9YZU5",
+        "A0A0J9YWK4",
+        "F8W6P5"
+      ]
+    }
+  }
+}

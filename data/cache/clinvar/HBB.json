@@ -1,0 +1,9 @@
+{
+  "symbol": "HBB",
+  "pathogenic": 425,
+  "likely_pathogenic": 128,
+  "ok": true,
+  "error": null,
+  "method": "esearch count by gene+clinsig",
+  "queried_at": "2026-09-29"
+}

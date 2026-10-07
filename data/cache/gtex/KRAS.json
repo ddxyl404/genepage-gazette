@@ -1,0 +1,544 @@
+{
+  "symbol": "KRAS",
+  "ensembl_id": "ENSG00000133703",
+  "gencode_id": "ENSG00000133703.11",
+  "median_rows": [
+    {
+      "median": 14.6785,
+      "tissueSiteDetailId": "Adipose_Subcutaneous",
+      "ontologyId": "UBERON:0002190",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 12.7686,
+      "tissueSiteDetailId": "Adipose_Visceral_Omentum",
+      "ontologyId": "UBERON:0010414",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 9.108889999999999,
+      "tissueSiteDetailId": "Adrenal_Gland",
+      "ontologyId": "UBERON:0002369",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 14.5342,
+      "tissueSiteDetailId": "Artery_Aorta",
+      "ontologyId": "UBERON:0001496",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 15.1514,
+      "tissueSiteDetailId": "Artery_Coronary",
+      "ontologyId": "UBERON:0001621",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 17.6536,
+      "tissueSiteDetailId": "Artery_Tibial",
+      "ontologyId": "UBERON:0007610",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 18.352,
+      "tissueSiteDetailId": "Bladder",
+      "ontologyId": "UBERON:0001255",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 7.75667,
+      "tissueSiteDetailId": "Brain_Amygdala",
+      "ontologyId": "UBERON:0001876",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 11.615,
+      "tissueSiteDetailId": "Brain_Anterior_cingulate_cortex_BA24",
+      "ontologyId": "UBERON:0009835",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 7.72652,
+      "tissueSiteDetailId": "Brain_Caudate_basal_ganglia",
+      "ontologyId": "UBERON:0001873",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 25.09,
+      "tissueSiteDetailId": "Brain_Cerebellar_Hemisphere",
+      "ontologyId": "UBERON:0002037",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 17.4214,
+      "tissueSiteDetailId": "Brain_Cerebellum",
+      "ontologyId": "UBERON:0002037",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 9.417760000000001,
+      "tissueSiteDetailId": "Brain_Cortex",
+      "ontologyId": "UBERON:0001870",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 16.9458,
+      "tissueSiteDetailId": "Brain_Frontal_Cortex_BA9",
+      "ontologyId": "UBERON:0009834",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.981,
+      "tissueSiteDetailId": "Brain_Hippocampus",
+      "ontologyId": "UBERON:0001954",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 10.9089,
+      "tissueSiteDetailId": "Brain_Hypothalamus",
+      "ontologyId": "UBERON:0001898",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 9.27431,
+      "tissueSiteDetailId": "Brain_Nucleus_accumbens_basal_ganglia",
+      "ontologyId": "UBERON:0001882",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.61287,
+      "tissueSiteDetailId": "Brain_Putamen_basal_ganglia",
+      "ontologyId": "UBERON:0001874",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 7.85505,
+      "tissueSiteDetailId": "Brain_Spinal_cord_cervical_c-1",
+      "ontologyId": "UBERON:0006469",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.816110000000001,
+      "tissueSiteDetailId": "Brain_Substantia_nigra",
+      "ontologyId": "UBERON:0002038",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 12.7982,
+      "tissueSiteDetailId": "Breast_Mammary_Tissue",
+      "ontologyId": "UBERON:0008367",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 16.8009,
+      "tissueSiteDetailId": "Cells_Cultured_fibroblasts",
+      "ontologyId": "EFO:0002009",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 17.0519,
+      "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+      "ontologyId": "EFO:0000572",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 16.1967,
+      "tissueSiteDetailId": "Cervix_Ectocervix",
+      "ontologyId": "UBERON:0012249",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 13.3085,
+      "tissueSiteDetailId": "Cervix_Endocervix",
+      "ontologyId": "UBERON:0000458",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 16.6414,
+      "tissueSiteDetailId": "Colon_Sigmoid",
+      "ontologyId": "UBERON:0001159",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 17.9088,
+      "tissueSiteDetailId": "Colon_Transverse",
+      "ontologyId": "UBERON:0001157",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 20.1869,
+      "tissueSiteDetailId": "Esophagus_Gastroesophageal_Junction",
+      "ontologyId": "UBERON:0004550",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 21.5521,
+      "tissueSiteDetailId": "Esophagus_Mucosa",
+      "ontologyId": "UBERON:0006920",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 22.1699,
+      "tissueSiteDetailId": "Esophagus_Muscularis",
+      "ontologyId": "UBERON:0004648",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 14.9145,
+      "tissueSiteDetailId": "Fallopian_Tube",
+      "ontologyId": "UBERON:0003889",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.40889,
+      "tissueSiteDetailId": "Heart_Atrial_Appendage",
+      "ontologyId": "UBERON:0006631",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 3.6586199999999995,
+      "tissueSiteDetailId": "Heart_Left_Ventricle",
+      "ontologyId": "UBERON:0006566",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.95241,
+      "tissueSiteDetailId": "Kidney_Cortex",
+      "ontologyId": "UBERON:0001225",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 9.44171,
+      "tissueSiteDetailId": "Kidney_Medulla",
+      "ontologyId": "UBERON:0001293",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 6.28899,
+      "tissueSiteDetailId": "Liver",
+      "ontologyId": "UBERON:0001114",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 19.7597,
+      "tissueSiteDetailId": "Lung",
+      "ontologyId": "UBERON:0008952",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 14.3016,
+      "tissueSiteDetailId": "Minor_Salivary_Gland",
+      "ontologyId": "UBERON:0006330",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.02815,
+      "tissueSiteDetailId": "Muscle_Skeletal",
+      "ontologyId": "UBERON:0011907",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 30.7364,
+      "tissueSiteDetailId": "Nerve_Tibial",
+      "ontologyId": "UBERON:0001323",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 12.9618,
+      "tissueSiteDetailId": "Ovary",
+      "ontologyId": "UBERON:0000992",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 5.03181,
+      "tissueSiteDetailId": "Pancreas",
+      "ontologyId": "UBERON:0001150",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 9.70208,
+      "tissueSiteDetailId": "Pituitary",
+      "ontologyId": "UBERON:0000007",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 12.4031,
+      "tissueSiteDetailId": "Prostate",
+      "ontologyId": "UBERON:0002367",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 15.9278,
+      "tissueSiteDetailId": "Skin_Not_Sun_Exposed_Suprapubic",
+      "ontologyId": "UBERON:0036149",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 16.3019,
+      "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+      "ontologyId": "UBERON:0004264",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 16.5858,
+      "tissueSiteDetailId": "Small_Intestine_Terminal_Ileum",
+      "ontologyId": "UBERON:0001211",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 12.8392,
+      "tissueSiteDetailId": "Spleen",
+      "ontologyId": "UBERON:0002106",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 14.984000000000002,
+      "tissueSiteDetailId": "Stomach",
+      "ontologyId": "UBERON:0000945",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 10.8717,
+      "tissueSiteDetailId": "Testis",
+      "ontologyId": "UBERON:0000473",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 15.0335,
+      "tissueSiteDetailId": "Thyroid",
+      "ontologyId": "UBERON:0002046",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 16.6828,
+      "tissueSiteDetailId": "Uterus",
+      "ontologyId": "UBERON:0000995",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 18.4221,
+      "tissueSiteDetailId": "Vagina",
+      "ontologyId": "UBERON:0000996",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    },
+    {
+      "median": 9.08815,
+      "tissueSiteDetailId": "Whole_Blood",
+      "ontologyId": "UBERON:0013756",
+      "datasetId": "gtex_v8",
+      "gencodeId": "ENSG00000133703.11",
+      "geneSymbol": "KRAS",
+      "unit": "TPM"
+    }
+  ],
+  "result": {
+    "ok": true,
+    "error": null,
+    "gencode_id": "ENSG00000133703.11",
+    "raw_count": 54,
+    "tissues": [
+      {
+        "name": "Nerve - Tibial",
+        "name_zh": "胫神经",
+        "value": 30.736
+      },
+      {
+        "name": "Brain - Cerebellar Hemisphere",
+        "name_zh": "小脑半球",
+        "value": 25.09
+      },
+      {
+        "name": "Esophagus - Muscularis",
+        "name_zh": "食管肌层",
+        "value": 22.17
+      },
+      {
+        "name": "Esophagus - Mucosa",
+        "name_zh": "食管黏膜",
+        "value": 21.552
+      },
+      {
+        "name": "Esophagus - Gastroesophageal Junction",
+        "name_zh": "食管胃交界",
+        "value": 20.187
+      },
+      {
+        "name": "Lung",
+        "name_zh": "肺",
+        "value": 19.76
+      },
+      {
+        "name": "Vagina",
+        "name_zh": "阴道",
+        "value": 18.422
+      },
+      {
+        "name": "Bladder",
+        "name_zh": "膀胱",
+        "value": 18.352
+      }
+    ],
+    "top_tissue_en": "Nerve - Tibial",
+    "top_tissue_zh": "胫神经",
+    "queried_at": "2026-09-29"
+  }
+}

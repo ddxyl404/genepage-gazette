@@ -1,0 +1,43 @@
+# GenePage Gazette — Render Blueprint (P4b Free)
+# Free Web Services sleep after ~15 min idle; first request after sleep is a cold start.
+# If genepage-api / genepage-web names are taken, rename both services and update
+# NEXT_PUBLIC_API_URL + GENEPAGE_CORS_ORIGINS accordingly.
+# Deploy: Dashboard → New → Blueprint → select GitHub repo → apply this file.
+# See docs/P4B_RENDER.md
+
+services:
+  - type: web
+    name: genepage-api
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./api/Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: GENEPAGE_DATA_DIR
+        value: /data
+      - key: GENEPAGE_CACHE_DIR
+        value: /data/cache
+      # Comma-separated browser origins allowed to call the API directly
+      # (web/src/lib/api.ts uses NEXT_PUBLIC_API_URL for client fetches).
+      - key: GENEPAGE_CORS_ORIGINS
+        value: https://genepage-web.onrender.com
+      # Keep uvicorn on 8000; Render proxies to PORT.
+      - key: PORT
+        value: "8000"
+
+  - type: web
+    name: genepage-web
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./web/Dockerfile
+    dockerContext: ./web
+    # NEXT_PUBLIC_* is baked at Next build time (ARG in web/Dockerfile).
+    # Render passes envVars as Docker build args automatically — no separate
+    # dockerBuildArgs field in Blueprint. Rebuild after changing this URL.
+    # If the API service name differs, update this value to match.
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://genepage-api.onrender.com

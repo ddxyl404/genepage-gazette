@@ -1,0 +1,9 @@
+{
+  "symbol": "TP53",
+  "pathogenic": 1020,
+  "likely_pathogenic": 427,
+  "ok": true,
+  "error": null,
+  "method": "esearch count by gene+clinsig",
+  "queried_at": "2026-09-29"
+}

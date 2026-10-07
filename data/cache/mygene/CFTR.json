@@ -1,0 +1,142 @@
+{
+  "symbol": "CFTR",
+  "ok": true,
+  "error": null,
+  "queried_at": "2026-09-29",
+  "id": "ENSG00000001626",
+  "name": "CF transmembrane conductance regulator",
+  "aliases": [
+    "ABC35",
+    "ABCC7",
+    "CF",
+    "CFTR/MRP",
+    "MRP7",
+    "TNR-CFTR",
+    "dJ760C5.1"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "7",
+    "start": 117287120,
+    "end": 117715971,
+    "assembly": "GRCh38"
+  },
+  "uniprot": "P13569",
+  "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P13569",
+  "pathways": [
+    {
+      "name": "ABC transporters - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa02010"
+    },
+    {
+      "name": "cAMP signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04024"
+    },
+    {
+      "name": "AMPK signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04152"
+    },
+    {
+      "name": "Tight junction - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04530"
+    },
+    {
+      "name": "Gastric acid secretion - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04971"
+    }
+  ],
+  "summary": "This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. The encoded protein functions as a chloride channel, making it unique among members of this protein family, and controls ion and water secretion and absorption in epithelial tissues. Channel activation is mediated by cycles of regulatory domain phosphorylation, ATP-binding by the nucleotide-binding domains, and ATP hydrolysis. Mutations in this gene cause cystic fibrosis, the most common lethal genetic disorder in populations of Northern European descent. The most frequently occurring mutation in cystic fibrosis, DeltaF508, results in impaired folding and trafficking of the encoded protein. Multiple pseudogenes have been identified in the human genome. [provided by RefSeq, Aug 2017].",
+  "raw_hit": {
+    "_id": "1080",
+    "_score": 17.322897,
+    "alias": [
+      "ABC35",
+      "ABCC7",
+      "CF",
+      "CFTR/MRP",
+      "MRP7",
+      "TNR-CFTR",
+      "dJ760C5.1"
+    ],
+    "ensembl": {
+      "gene": "ENSG00000001626"
+    },
+    "genomic_pos": {
+      "chr": "7",
+      "end": 117715971,
+      "ensemblgene": "ENSG00000001626",
+      "start": 117287120,
+      "strand": 1
+    },
+    "name": "CF transmembrane conductance regulator",
+    "pathway": {
+      "kegg": [
+        {
+          "id": "hsa02010",
+          "name": "ABC transporters - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04024",
+          "name": "cAMP signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04152",
+          "name": "AMPK signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04530",
+          "name": "Tight junction - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04971",
+          "name": "Gastric acid secretion - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04972",
+          "name": "Pancreatic secretion - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04976",
+          "name": "Bile secretion - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05110",
+          "name": "Vibrio cholerae infection - Homo sapiens (human)"
+        }
+      ]
+    },
+    "summary": "This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. The encoded protein functions as a chloride channel, making it unique among members of this protein family, and controls ion and water secretion and absorption in epithelial tissues. Channel activation is mediated by cycles of regulatory domain phosphorylation, ATP-binding by the nucleotide-binding domains, and ATP hydrolysis. Mutations in this gene cause cystic fibrosis, the most common lethal genetic disorder in populations of Northern European descent. The most frequently occurring mutation in cystic fibrosis, DeltaF508, results in impaired folding and trafficking of the encoded protein. Multiple pseudogenes have been identified in the human genome. [provided by RefSeq, Aug 2017].",
+    "symbol": "CFTR",
+    "type_of_gene": "protein-coding",
+    "uniprot": {
+      "Swiss-Prot": "P13569",
+      "TrEMBL": [
+        "A0A8I5KVV2",
+        "A0A3B3IT97",
+        "A0A3B3ITE0",
+        "A0A8I5KVL1",
+        "E7EPB6",
+        "A0ACI8QAQ7",
+        "A0ACI8QF12",
+        "A0ACI8QAP8",
+        "A0ACI8SBR8",
+        "A0A8V8TNN0",
+        "A0A8V8TPV6",
+        "A0A669KBE8",
+        "A0A8V8TQ94",
+        "C9J6L5",
+        "A0ACI8S3G1",
+        "A0A3B3ITW0",
+        "A0A3B3ITW5",
+        "A0A8V8TQ89",
+        "H0Y8A9",
+        "M0QYZ3",
+        "A0A8V8TNH2",
+        "A0ACI8UL55",
+        "A0A8V8TNN7",
+        "A0A8I5KXQ9",
+        "A0A8V8TNG7"
+      ]
+    }
+  }
+}

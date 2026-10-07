@@ -1,0 +1,269 @@
+{
+  "id": "ENSG00000001626",
+  "symbol": "CFTR",
+  "aliases": [
+    "ABC35",
+    "ABCC7",
+    "CF",
+    "CFTR/MRP",
+    "MRP7",
+    "TNR-CFTR",
+    "dJ760C5.1"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "7",
+    "start": 117287120,
+    "end": 117715971,
+    "assembly": "GRCh38"
+  },
+  "deck_zh": "CFTR 编码氯离子通道蛋白，突变与囊性纤维化相关机制研究密切相关。该基因在胰腺、呼吸道与肠道上皮中的表达具有组织特异性。本条目整理公开数据库中的身份与通路概览。",
+  "deck_en": "CFTR encodes a chloride channel protein; its mutations are closely tied to cystic fibrosis mechanism research. Expression shows tissue specificity in pancreas, airway, and intestinal epithelium. This entry collates identity and pathway overviews from public databases.",
+  "headline_stats": [
+    {
+      "key": "location",
+      "label_zh": "基因组位置",
+      "value": "7q31.2"
+    },
+    {
+      "key": "clinvar_plp",
+      "label_zh": "ClinVar 致病/可能致病",
+      "value": 1976,
+      "as_of": "2026-09-29"
+    },
+    {
+      "key": "top_tissue",
+      "label_zh": "GTEx 最高表达",
+      "value": "胰腺",
+      "as_of": "2026-09-29",
+      "detail": "Pancreas"
+    }
+  ],
+  "pathways": [
+    {
+      "name": "ABC transporters - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa02010"
+    },
+    {
+      "name": "cAMP signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04024"
+    },
+    {
+      "name": "AMPK signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04152"
+    },
+    {
+      "name": "Tight junction - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04530"
+    },
+    {
+      "name": "Gastric acid secretion - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04971"
+    }
+  ],
+  "expression": {
+    "source": "GTEx",
+    "unit": "TPM",
+    "tissues": [
+      {
+        "name": "Pancreas",
+        "name_zh": "胰腺",
+        "value": 65.792
+      },
+      {
+        "name": "Colon - Transverse",
+        "name_zh": "横结肠",
+        "value": 17.316
+      },
+      {
+        "name": "Minor Salivary Gland",
+        "name_zh": "小唾液腺",
+        "value": 9.919
+      },
+      {
+        "name": "Small Intestine - Terminal Ileum",
+        "name_zh": "回肠末端",
+        "value": 5.061
+      },
+      {
+        "name": "Lung",
+        "name_zh": "肺",
+        "value": 2.357
+      },
+      {
+        "name": "Skin - Sun Exposed (Lower leg)",
+        "name_zh": "皮肤（日照）",
+        "value": 1.792
+      },
+      {
+        "name": "Testis",
+        "name_zh": "睾丸",
+        "value": 1.702
+      },
+      {
+        "name": "Prostate",
+        "name_zh": "前列腺",
+        "value": 1.498
+      }
+    ],
+    "caption_zh": "图 · GTEx 中位表达（TPM）· 组织水平排行",
+    "caption_en": "Fig. · GTEx median expression (TPM) · ranked horizontal bars"
+  },
+  "structure": {
+    "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P13569",
+    "preview_image": "cache/alphafold/CFTR.png",
+    "caption_zh": "图 · AlphaFold 结构预测",
+    "caption_en": "Fig. · AlphaFold structure prediction"
+  },
+  "variants_summary": {
+    "clinvar_pathogenic": 1291,
+    "clinvar_likely_pathogenic": 685,
+    "note_zh": "非诊断结论；计数来自 ClinVar E-utilities 检索，非正式导出 tar。本期无逐条收录。"
+  },
+  "confidence": {
+    "identity": "high",
+    "expression": "high",
+    "clinvar": "high"
+  },
+  "colophon": {
+    "data_as_of": "2026-09-30",
+    "edition": "0.3.3-p39",
+    "disclaimer_zh": "科研/教学信息工具，非医疗器械，不提供诊断建议。"
+  },
+  "sources": [
+    {
+      "name": "MyGene.info",
+      "url": "https://mygene.info",
+      "version": "v3; queried 2026-09-29",
+      "confidence": "high"
+    },
+    {
+      "name": "Ensembl / GRCh38 via MyGene",
+      "url": "https://www.ensembl.org",
+      "version": "GRCh38",
+      "confidence": "high"
+    },
+    {
+      "name": "KEGG via MyGene",
+      "url": "https://www.kegg.jp",
+      "version": "via MyGene pathway.kegg",
+      "confidence": "medium"
+    },
+    {
+      "name": "AlphaFold DB",
+      "url": "https://alphafold.ebi.ac.uk/entry/P13569",
+      "version": "2026-09-30; entry by UniProt; local CA-trace preview",
+      "confidence": "high",
+      "note": "preview_image=cache/alphafold/CFTR.png（本地缓存；由 PDB CA 迹线或 PAE 图生成）"
+    },
+    {
+      "name": "ClinVar",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "version": "2026-09-29; esearch count by gene+clinsig",
+      "confidence": "high"
+    },
+    {
+      "name": "GTEx",
+      "url": "https://gtexportal.org",
+      "version": "2026-09-29; GTEx Portal API v2 medianGeneExpression",
+      "confidence": "high",
+      "note": "组织中文（name_zh / top_tissue.value）为展示映射，非 GTEx 官方字段。"
+    },
+    {
+      "name": "UniProt domains",
+      "url": "https://www.uniprot.org/uniprotkb/P13569",
+      "version": "2026-09-30; Swiss-Prot features (Domain/Region/…)",
+      "confidence": "high"
+    },
+    {
+      "name": "UCSC cytoBandIdeo",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+      "version": "hg38 / GRCh38; 2026-09-30",
+      "confidence": "high",
+      "note": "figure_id=cytobands/7.json"
+    }
+  ],
+  "variants_detail": [],
+  "cytoband": {
+    "chrom": "7",
+    "start": 117287120,
+    "end": 117715971,
+    "assembly": "GRCh38",
+    "band_label": "7q31.2",
+    "figure_id": "cytobands/7.json"
+  },
+  "domains": [
+    {
+      "id": "up:P13569:Transmembrane:78-98",
+      "name": "Transmembrane (Helical; Name=1)",
+      "name_zh": "跨膜区",
+      "start": 78,
+      "end": 98,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P13569"
+    },
+    {
+      "id": "up:P13569:Domain:81-365",
+      "name": "ABC transmembrane type-1 1",
+      "name_zh": "ABC transmembrane type-1 1",
+      "start": 81,
+      "end": 365,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P13569"
+    },
+    {
+      "id": "up:P13569:Transmembrane:123-146",
+      "name": "Transmembrane (Helical; Name=2)",
+      "name_zh": "跨膜区",
+      "start": 123,
+      "end": 146,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P13569"
+    },
+    {
+      "id": "up:P13569:Transmembrane:196-216",
+      "name": "Transmembrane (Helical; Name=3)",
+      "name_zh": "跨膜区",
+      "start": 196,
+      "end": 216,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P13569"
+    },
+    {
+      "id": "up:P13569:Transmembrane:223-243",
+      "name": "Transmembrane (Helical; Name=4)",
+      "name_zh": "跨膜区",
+      "start": 223,
+      "end": 243,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P13569"
+    },
+    {
+      "id": "up:P13569:Domain:423-646",
+      "name": "ABC transporter 1",
+      "name_zh": "ABC 转运域",
+      "start": 423,
+      "end": 646,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P13569"
+    },
+    {
+      "id": "up:P13569:Domain:859-1155",
+      "name": "ABC transmembrane type-1 2",
+      "name_zh": "ABC transmembrane type-1 2",
+      "start": 859,
+      "end": 1155,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P13569"
+    },
+    {
+      "id": "up:P13569:Domain:1210-1443",
+      "name": "ABC transporter 2",
+      "name_zh": "ABC 转运域",
+      "start": 1210,
+      "end": 1443,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P13569"
+    }
+  ]
+}

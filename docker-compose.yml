@@ -1,0 +1,39 @@
+# GenePage Gazette — Compose 备份启动路径（生产 / 有 Docker 的主机）。
+# 本机共享 box 可能未安装 Docker；本地开发仍用 README「不用 Docker」段（uvicorn + npm run dev）。
+# API Dockerfile 以仓库根为 build context，并把 data/ 烤进镜像；Compose 仍挂 ./data → /data:ro 覆盖烤入层以便本地改数不重建。
+# 环境变量：
+#   GENEPAGE_DATA_DIR=/data          — API 只读数据根
+#   GENEPAGE_CACHE_DIR=/data/cache   — P2 cache / AlphaFold 预览
+#   NEXT_PUBLIC_API_URL=http://api:8000 — Web 调 API（容器网络内服务名）
+# 端口：API 8000 · Web 3000。公网请前置反向代理（HTTPS），见 README「生产注意」。
+# Render Free 部署见 docs/P4B_RENDER.md 与根目录 render.yaml。
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      GENEPAGE_DATA_DIR: /data
+      GENEPAGE_CACHE_DIR: /data/cache
+      PORT: "8000"
+    volumes:
+      # 种子与 cache 只读挂载，覆盖镜像内烤入的 /data；写入请在宿主机跑 data/scripts
+      - ./data:/data:ro
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://api:8000
+    ports:
+      - "3000:3000"
+    environment:
+      # 浏览器/SSR 可达的 API；Compose 网络内用服务名 api
+      NEXT_PUBLIC_API_URL: http://api:8000
+    depends_on:
+      - api

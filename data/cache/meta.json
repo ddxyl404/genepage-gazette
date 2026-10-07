@@ -1,0 +1,83 @@
+{
+  "edition": "0.2.0-p2",
+  "data_as_of": "2026-09-29",
+  "synced_at": "2026-09-29T15:42:11+08:00",
+  "summary": {
+    "genes": [
+      {
+        "symbol": "TP53",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "BRCA1",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "BRCA2",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "EGFR",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "KRAS",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "APOE",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "CFTR",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "HBB",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "APP",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      },
+      {
+        "symbol": "MYC",
+        "mygene": true,
+        "clinvar": true,
+        "gtex": true,
+        "errors": []
+      }
+    ],
+    "ok_mygene": 10,
+    "ok_clinvar": 10,
+    "ok_gtex": 10,
+    "total": 10
+  }
+}

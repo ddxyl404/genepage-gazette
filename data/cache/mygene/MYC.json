@@ -1,0 +1,216 @@
+{
+  "symbol": "MYC",
+  "ok": true,
+  "error": null,
+  "queried_at": "2026-09-29",
+  "id": "ENSG00000136997",
+  "name": "MYC proto-oncogene, bHLH transcription factor",
+  "aliases": [
+    "MRTL",
+    "MYCC",
+    "bHLHe39",
+    "c-Myc"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "8",
+    "start": 127735434,
+    "end": 127742951,
+    "assembly": "GRCh38"
+  },
+  "uniprot": "P01106",
+  "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P01106",
+  "pathways": [
+    {
+      "name": "MAPK signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04010"
+    },
+    {
+      "name": "ErbB signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04012"
+    },
+    {
+      "name": "Cell cycle - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04110"
+    },
+    {
+      "name": "PI3K-Akt signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04151"
+    },
+    {
+      "name": "Cellular senescence - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04218"
+    }
+  ],
+  "summary": "This gene is a proto-oncogene and encodes a nuclear phosphoprotein that plays a role in cell cycle progression, apoptosis and cellular transformation. The encoded protein forms a heterodimer with the related transcription factor MAX. This complex binds to the E box DNA consensus sequence and regulates the transcription of specific target genes. Amplification of this gene is frequently observed in numerous human cancers. Translocations involving this gene are associated with Burkitt lymphoma and multiple myeloma in human patients. There is evidence to show that translation initiates both from an upstream, in-frame non-AUG (CUG) and a downstream AUG start site, resulting in the production of two isoforms with distinct N-termini. [provided by RefSeq, Aug 2017].",
+  "raw_hit": {
+    "_id": "4609",
+    "_score": 17.610699,
+    "alias": [
+      "MRTL",
+      "MYCC",
+      "bHLHe39",
+      "c-Myc"
+    ],
+    "ensembl": {
+      "gene": "ENSG00000136997"
+    },
+    "genomic_pos": {
+      "chr": "8",
+      "end": 127742951,
+      "ensemblgene": "ENSG00000136997",
+      "start": 127735434,
+      "strand": 1
+    },
+    "name": "MYC proto-oncogene, bHLH transcription factor",
+    "pathway": {
+      "kegg": [
+        {
+          "id": "hsa04010",
+          "name": "MAPK signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04012",
+          "name": "ErbB signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04110",
+          "name": "Cell cycle - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04151",
+          "name": "PI3K-Akt signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04218",
+          "name": "Cellular senescence - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04310",
+          "name": "Wnt signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04350",
+          "name": "TGF-beta signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04390",
+          "name": "Hippo signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04550",
+          "name": "Signaling pathways regulating pluripotency of stem cells - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04630",
+          "name": "JAK-STAT signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04919",
+          "name": "Thyroid hormone signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05132",
+          "name": "Salmonella infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05160",
+          "name": "Hepatitis C - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05161",
+          "name": "Hepatitis B - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05163",
+          "name": "Human cytomegalovirus infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05166",
+          "name": "Human T-cell leukemia virus 1 infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05167",
+          "name": "Kaposi sarcoma-associated herpesvirus infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05169",
+          "name": "Epstein-Barr virus infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05200",
+          "name": "Pathways in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05202",
+          "name": "Transcriptional misregulation in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05205",
+          "name": "Proteoglycans in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05206",
+          "name": "MicroRNAs in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05210",
+          "name": "Colorectal cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05213",
+          "name": "Endometrial cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05216",
+          "name": "Thyroid cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05219",
+          "name": "Bladder cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05220",
+          "name": "Chronic myeloid leukemia - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05221",
+          "name": "Acute myeloid leukemia - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05222",
+          "name": "Small cell lung cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05224",
+          "name": "Breast cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05225",
+          "name": "Hepatocellular carcinoma - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05226",
+          "name": "Gastric cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05230",
+          "name": "Central carbon metabolism in cancer - Homo sapiens (human)"
+        }
+      ]
+    },
+    "summary": "This gene is a proto-oncogene and encodes a nuclear phosphoprotein that plays a role in cell cycle progression, apoptosis and cellular transformation. The encoded protein forms a heterodimer with the related transcription factor MAX. This complex binds to the E box DNA consensus sequence and regulates the transcription of specific target genes. Amplification of this gene is frequently observed in numerous human cancers. Translocations involving this gene are associated with Burkitt lymphoma and multiple myeloma in human patients. There is evidence to show that translation initiates both from an upstream, in-frame non-AUG (CUG) and a downstream AUG start site, resulting in the production of two isoforms with distinct N-termini. [provided by RefSeq, Aug 2017].",
+    "symbol": "MYC",
+    "type_of_gene": "protein-coding",
+    "uniprot": {
+      "Swiss-Prot": "P01106",
+      "TrEMBL": [
+        "A0A0B4J1R1",
+        "Q16591",
+        "A0A286YF84",
+        "A0A494C1T8",
+        "H0YBG3"
+      ]
+    }
+  }
+}

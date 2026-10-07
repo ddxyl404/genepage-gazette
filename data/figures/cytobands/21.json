@@ -1,0 +1,94 @@
+{
+  "chrom": "21",
+  "assembly": "GRCh38",
+  "bands": [
+    {
+      "id": "p13",
+      "start": 0,
+      "end": 3100000,
+      "stain": "gvar"
+    },
+    {
+      "id": "p12",
+      "start": 3100000,
+      "end": 7000000,
+      "stain": "stalk"
+    },
+    {
+      "id": "p11.2",
+      "start": 7000000,
+      "end": 10900000,
+      "stain": "gvar"
+    },
+    {
+      "id": "p11.1",
+      "start": 10900000,
+      "end": 12000000,
+      "stain": "acen"
+    },
+    {
+      "id": "q11.1",
+      "start": 12000000,
+      "end": 13000000,
+      "stain": "acen"
+    },
+    {
+      "id": "q11.2",
+      "start": 13000000,
+      "end": 15000000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q21.1",
+      "start": 15000000,
+      "end": 22600000,
+      "stain": "gpos100"
+    },
+    {
+      "id": "q21.2",
+      "start": 22600000,
+      "end": 25500000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q21.3",
+      "start": 25500000,
+      "end": 30200000,
+      "stain": "gpos75"
+    },
+    {
+      "id": "q22.11",
+      "start": 30200000,
+      "end": 34400000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q22.12",
+      "start": 34400000,
+      "end": 36400000,
+      "stain": "gpos50"
+    },
+    {
+      "id": "q22.13",
+      "start": 36400000,
+      "end": 38300000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q22.2",
+      "start": 38300000,
+      "end": 41200000,
+      "stain": "gpos50"
+    },
+    {
+      "id": "q22.3",
+      "start": 41200000,
+      "end": 46709983,
+      "stain": "gneg"
+    }
+  ],
+  "source": "UCSC cytoBandIdeo (hg38 / GRCh38)",
+  "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+  "band_count": 14,
+  "fetched_at": "2026-09-30"
+}

@@ -1,0 +1,237 @@
+{
+  "id": "ENSG00000133703",
+  "symbol": "KRAS",
+  "aliases": [
+    "'C-K-RAS",
+    "C-K-RAS",
+    "CFC2",
+    "K-RAS2A",
+    "K-RAS2B",
+    "K-RAS4A",
+    "K-RAS4B",
+    "K-Ras",
+    "K-Ras 2",
+    "KI-RAS",
+    "KRAS1",
+    "KRAS2",
+    "NS",
+    "NS3",
+    "OES",
+    "RALD",
+    "RALD2",
+    "RASK2",
+    "c-Ki-ras",
+    "c-Ki-ras2"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "12",
+    "start": 25205246,
+    "end": 25326473,
+    "assembly": "GRCh38"
+  },
+  "deck_zh": "KRAS 属于 RAS 小 GTP 酶家族，传导生长因子相关信号并调控增殖与分化。点突变在多种实体瘤研究中被反复讨论。本条目汇总位置、通路与表达占位数据，供教学参考。",
+  "deck_en": "KRAS belongs to the RAS small GTPase family, transmitting growth-factor–related signals that regulate proliferation and differentiation. Point mutations are repeatedly discussed across solid-tumor research. This entry summarizes location, pathways, and expression snapshots for teaching reference.",
+  "headline_stats": [
+    {
+      "key": "location",
+      "label_zh": "基因组位置",
+      "value": "12p12.1"
+    },
+    {
+      "key": "clinvar_plp",
+      "label_zh": "ClinVar 致病/可能致病",
+      "value": 159,
+      "as_of": "2026-09-29"
+    },
+    {
+      "key": "top_tissue",
+      "label_zh": "GTEx 最高表达",
+      "value": "胫神经",
+      "as_of": "2026-09-29",
+      "detail": "Nerve - Tibial"
+    }
+  ],
+  "pathways": [
+    {
+      "name": "MAPK signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04010"
+    },
+    {
+      "name": "ErbB signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04012"
+    },
+    {
+      "name": "Ras signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04014"
+    },
+    {
+      "name": "Rap1 signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04015"
+    },
+    {
+      "name": "Chemokine signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04062"
+    }
+  ],
+  "expression": {
+    "source": "GTEx",
+    "unit": "TPM",
+    "tissues": [
+      {
+        "name": "Nerve - Tibial",
+        "name_zh": "胫神经",
+        "value": 30.736
+      },
+      {
+        "name": "Brain - Cerebellar Hemisphere",
+        "name_zh": "小脑半球",
+        "value": 25.09
+      },
+      {
+        "name": "Esophagus - Muscularis",
+        "name_zh": "食管肌层",
+        "value": 22.17
+      },
+      {
+        "name": "Esophagus - Mucosa",
+        "name_zh": "食管黏膜",
+        "value": 21.552
+      },
+      {
+        "name": "Esophagus - Gastroesophageal Junction",
+        "name_zh": "食管胃交界",
+        "value": 20.187
+      },
+      {
+        "name": "Lung",
+        "name_zh": "肺",
+        "value": 19.76
+      },
+      {
+        "name": "Vagina",
+        "name_zh": "阴道",
+        "value": 18.422
+      },
+      {
+        "name": "Bladder",
+        "name_zh": "膀胱",
+        "value": 18.352
+      }
+    ],
+    "caption_zh": "图 · GTEx 中位表达（TPM）· 组织水平排行",
+    "caption_en": "Fig. · GTEx median expression (TPM) · ranked horizontal bars"
+  },
+  "structure": {
+    "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P01116",
+    "preview_image": "cache/alphafold/KRAS.png",
+    "caption_zh": "图 · AlphaFold 结构预测",
+    "caption_en": "Fig. · AlphaFold structure prediction"
+  },
+  "variants_summary": {
+    "clinvar_pathogenic": 92,
+    "clinvar_likely_pathogenic": 67,
+    "note_zh": "非诊断结论；计数来自 ClinVar E-utilities 检索，非正式导出 tar。本期无逐条收录。"
+  },
+  "confidence": {
+    "identity": "high",
+    "expression": "high",
+    "clinvar": "high"
+  },
+  "colophon": {
+    "data_as_of": "2026-09-30",
+    "edition": "0.3.3-p39",
+    "disclaimer_zh": "科研/教学信息工具，非医疗器械，不提供诊断建议。"
+  },
+  "sources": [
+    {
+      "name": "MyGene.info",
+      "url": "https://mygene.info",
+      "version": "v3; queried 2026-09-29",
+      "confidence": "high"
+    },
+    {
+      "name": "Ensembl / GRCh38 via MyGene",
+      "url": "https://www.ensembl.org",
+      "version": "GRCh38",
+      "confidence": "high"
+    },
+    {
+      "name": "KEGG via MyGene",
+      "url": "https://www.kegg.jp",
+      "version": "via MyGene pathway.kegg",
+      "confidence": "medium"
+    },
+    {
+      "name": "AlphaFold DB",
+      "url": "https://alphafold.ebi.ac.uk/entry/P01116",
+      "version": "2026-09-30; entry by UniProt; local CA-trace preview",
+      "confidence": "high",
+      "note": "preview_image=cache/alphafold/KRAS.png（本地缓存；由 PDB CA 迹线或 PAE 图生成）"
+    },
+    {
+      "name": "ClinVar",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "version": "2026-09-29; esearch count by gene+clinsig",
+      "confidence": "high"
+    },
+    {
+      "name": "GTEx",
+      "url": "https://gtexportal.org",
+      "version": "2026-09-29; GTEx Portal API v2 medianGeneExpression",
+      "confidence": "high",
+      "note": "组织中文（name_zh / top_tissue.value）为展示映射，非 GTEx 官方字段。"
+    },
+    {
+      "name": "UniProt domains",
+      "url": "https://www.uniprot.org/uniprotkb/P01116",
+      "version": "2026-09-30; Swiss-Prot features (Domain/Region/…)",
+      "confidence": "high"
+    },
+    {
+      "name": "UCSC cytoBandIdeo",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+      "version": "hg38 / GRCh38; 2026-09-30",
+      "confidence": "high",
+      "note": "figure_id=cytobands/12.json"
+    }
+  ],
+  "variants_detail": [],
+  "cytoband": {
+    "chrom": "12",
+    "start": 25205246,
+    "end": 25326473,
+    "assembly": "GRCh38",
+    "band_label": "12p12.1",
+    "figure_id": "cytobands/12.json"
+  },
+  "domains": [
+    {
+      "id": "up:P01116:Chain:1-186",
+      "name": "GTPase KRas",
+      "name_zh": "GTPase 域",
+      "start": 1,
+      "end": 186,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P01116"
+    },
+    {
+      "id": "up:P01116:Motif:32-40",
+      "name": "Effector region",
+      "name_zh": "效应区",
+      "start": 32,
+      "end": 40,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P01116"
+    },
+    {
+      "id": "up:P01116:Region:166-185",
+      "name": "Hypervariable region",
+      "name_zh": "高变区",
+      "start": 166,
+      "end": 185,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P01116"
+    }
+  ]
+}

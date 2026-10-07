@@ -1,0 +1,270 @@
+{
+  "id": "ENSG00000146648",
+  "symbol": "EGFR",
+  "aliases": [
+    "ERBB",
+    "ERBB1",
+    "ERRP",
+    "HER1",
+    "NISBD2",
+    "NNCIS",
+    "PIG61",
+    "mENA"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "7",
+    "start": 55018820,
+    "end": 55211628,
+    "assembly": "GRCh38"
+  },
+  "deck_zh": "EGFR 编码表皮生长因子受体，是受体酪氨酸激酶信号通路的关键节点，广泛见于发育与多种上皮组织研究。靶向 EGFR 的机制研究在肿瘤生物学中占有重要地位。本条目为结构化信息摘要。",
+  "deck_en": "EGFR encodes the epidermal growth factor receptor, a pivotal receptor tyrosine kinase node in developmental biology and epithelial tissue studies. Mechanistic work on EGFR occupies a major place in cancer biology. This entry is a structured information abstract.",
+  "headline_stats": [
+    {
+      "key": "location",
+      "label_zh": "基因组位置",
+      "value": "7p11.2"
+    },
+    {
+      "key": "clinvar_plp",
+      "label_zh": "ClinVar 致病/可能致病",
+      "value": 121,
+      "as_of": "2026-09-29"
+    },
+    {
+      "key": "top_tissue",
+      "label_zh": "GTEx 最高表达",
+      "value": "皮肤（日照）",
+      "as_of": "2026-09-29",
+      "detail": "Skin - Sun Exposed (Lower leg)"
+    }
+  ],
+  "pathways": [
+    {
+      "name": "MAPK signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04010"
+    },
+    {
+      "name": "ErbB signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04012"
+    },
+    {
+      "name": "Ras signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04014"
+    },
+    {
+      "name": "Rap1 signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04015"
+    },
+    {
+      "name": "Calcium signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04020"
+    }
+  ],
+  "expression": {
+    "source": "GTEx",
+    "unit": "TPM",
+    "tissues": [
+      {
+        "name": "Skin - Sun Exposed (Lower leg)",
+        "name_zh": "皮肤（日照）",
+        "value": 78.337
+      },
+      {
+        "name": "Skin - Not Sun Exposed (Suprapubic)",
+        "name_zh": "皮肤（非日照）",
+        "value": 75.93
+      },
+      {
+        "name": "Cells - Cultured fibroblasts",
+        "name_zh": "成纤维细胞",
+        "value": 60.628
+      },
+      {
+        "name": "Nerve - Tibial",
+        "name_zh": "胫神经",
+        "value": 43.123
+      },
+      {
+        "name": "Vagina",
+        "name_zh": "阴道",
+        "value": 40.603
+      },
+      {
+        "name": "Adipose - Subcutaneous",
+        "name_zh": "皮下脂肪",
+        "value": 39.732
+      },
+      {
+        "name": "Esophagus - Gastroesophageal Junction",
+        "name_zh": "食管胃交界",
+        "value": 34.631
+      },
+      {
+        "name": "Artery - Tibial",
+        "name_zh": "胫动脉",
+        "value": 33.198
+      }
+    ],
+    "caption_zh": "图 · GTEx 中位表达（TPM）· 组织水平排行",
+    "caption_en": "Fig. · GTEx median expression (TPM) · ranked horizontal bars"
+  },
+  "structure": {
+    "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P00533",
+    "preview_image": "cache/alphafold/EGFR.png",
+    "caption_zh": "图 · AlphaFold 结构预测",
+    "caption_en": "Fig. · AlphaFold structure prediction"
+  },
+  "variants_summary": {
+    "clinvar_pathogenic": 75,
+    "clinvar_likely_pathogenic": 46,
+    "note_zh": "非诊断结论；计数来自 ClinVar E-utilities 检索，非正式导出 tar。本期无逐条收录。"
+  },
+  "confidence": {
+    "identity": "high",
+    "expression": "high",
+    "clinvar": "high"
+  },
+  "colophon": {
+    "data_as_of": "2026-09-30",
+    "edition": "0.3.3-p39",
+    "disclaimer_zh": "科研/教学信息工具，非医疗器械，不提供诊断建议。"
+  },
+  "sources": [
+    {
+      "name": "MyGene.info",
+      "url": "https://mygene.info",
+      "version": "v3; queried 2026-09-29",
+      "confidence": "high"
+    },
+    {
+      "name": "Ensembl / GRCh38 via MyGene",
+      "url": "https://www.ensembl.org",
+      "version": "GRCh38",
+      "confidence": "high"
+    },
+    {
+      "name": "KEGG via MyGene",
+      "url": "https://www.kegg.jp",
+      "version": "via MyGene pathway.kegg",
+      "confidence": "medium"
+    },
+    {
+      "name": "AlphaFold DB",
+      "url": "https://alphafold.ebi.ac.uk/entry/P00533",
+      "version": "2026-09-30; entry by UniProt; local CA-trace preview",
+      "confidence": "high",
+      "note": "preview_image=cache/alphafold/EGFR.png（本地缓存；由 PDB CA 迹线或 PAE 图生成）"
+    },
+    {
+      "name": "ClinVar",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "version": "2026-09-29; esearch count by gene+clinsig",
+      "confidence": "high"
+    },
+    {
+      "name": "GTEx",
+      "url": "https://gtexportal.org",
+      "version": "2026-09-29; GTEx Portal API v2 medianGeneExpression",
+      "confidence": "high",
+      "note": "组织中文（name_zh / top_tissue.value）为展示映射，非 GTEx 官方字段。"
+    },
+    {
+      "name": "UniProt domains",
+      "url": "https://www.uniprot.org/uniprotkb/P00533",
+      "version": "2026-09-30; Swiss-Prot features (Domain/Region/…)",
+      "confidence": "high"
+    },
+    {
+      "name": "UCSC cytoBandIdeo",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+      "version": "hg38 / GRCh38; 2026-09-30",
+      "confidence": "high",
+      "note": "figure_id=cytobands/7.json"
+    }
+  ],
+  "variants_detail": [],
+  "cytoband": {
+    "chrom": "7",
+    "start": 55018820,
+    "end": 55211628,
+    "assembly": "GRCh38",
+    "band_label": "7p11.2",
+    "figure_id": "cytobands/7.json"
+  },
+  "domains": [
+    {
+      "id": "up:P00533:Signal:1-24",
+      "name": "Signal peptide",
+      "name_zh": "信号肽",
+      "start": 1,
+      "end": 24,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P00533"
+    },
+    {
+      "id": "up:P00533:Topological domain:25-645",
+      "name": "Extracellular",
+      "name_zh": "胞外区",
+      "start": 25,
+      "end": 645,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P00533"
+    },
+    {
+      "id": "up:P00533:Repeat:75-300",
+      "name": "Repeat (Approximate)",
+      "name_zh": "Repeat (Approximate)",
+      "start": 75,
+      "end": 300,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P00533"
+    },
+    {
+      "id": "up:P00533:Repeat:390-600",
+      "name": "Repeat (Approximate)",
+      "name_zh": "Repeat (Approximate)",
+      "start": 390,
+      "end": 600,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P00533"
+    },
+    {
+      "id": "up:P00533:Transmembrane:646-668",
+      "name": "Transmembrane (Helical)",
+      "name_zh": "跨膜区",
+      "start": 646,
+      "end": 668,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P00533"
+    },
+    {
+      "id": "up:P00533:Topological domain:669-1210",
+      "name": "Cytoplasmic",
+      "name_zh": "胞质区",
+      "start": 669,
+      "end": 1210,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P00533"
+    },
+    {
+      "id": "up:P00533:Region:688-704",
+      "name": "Important for dimerization, phosphorylation and activation",
+      "name_zh": "Important for dimerization, phosphorylation and activation",
+      "start": 688,
+      "end": 704,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P00533"
+    },
+    {
+      "id": "up:P00533:Domain:712-979",
+      "name": "Protein kinase",
+      "name_zh": "蛋白激酶域",
+      "start": 712,
+      "end": 979,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P00533"
+    }
+  ]
+}

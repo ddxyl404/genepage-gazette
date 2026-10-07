@@ -1,0 +1,226 @@
+{
+  "chrom": "11",
+  "assembly": "GRCh38",
+  "bands": [
+    {
+      "id": "p15.5",
+      "start": 0,
+      "end": 2800000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p15.4",
+      "start": 2800000,
+      "end": 11700000,
+      "stain": "gpos50"
+    },
+    {
+      "id": "p15.3",
+      "start": 11700000,
+      "end": 13800000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p15.2",
+      "start": 13800000,
+      "end": 16900000,
+      "stain": "gpos50"
+    },
+    {
+      "id": "p15.1",
+      "start": 16900000,
+      "end": 22000000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p14.3",
+      "start": 22000000,
+      "end": 26200000,
+      "stain": "gpos100"
+    },
+    {
+      "id": "p14.2",
+      "start": 26200000,
+      "end": 27200000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p14.1",
+      "start": 27200000,
+      "end": 31000000,
+      "stain": "gpos75"
+    },
+    {
+      "id": "p13",
+      "start": 31000000,
+      "end": 36400000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p12",
+      "start": 36400000,
+      "end": 43400000,
+      "stain": "gpos100"
+    },
+    {
+      "id": "p11.2",
+      "start": 43400000,
+      "end": 48800000,
+      "stain": "gneg"
+    },
+    {
+      "id": "p11.12",
+      "start": 48800000,
+      "end": 51000000,
+      "stain": "gpos75"
+    },
+    {
+      "id": "p11.11",
+      "start": 51000000,
+      "end": 53400000,
+      "stain": "acen"
+    },
+    {
+      "id": "q11",
+      "start": 53400000,
+      "end": 55800000,
+      "stain": "acen"
+    },
+    {
+      "id": "q12.1",
+      "start": 55800000,
+      "end": 60100000,
+      "stain": "gpos75"
+    },
+    {
+      "id": "q12.2",
+      "start": 60100000,
+      "end": 61900000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q12.3",
+      "start": 61900000,
+      "end": 63600000,
+      "stain": "gpos25"
+    },
+    {
+      "id": "q13.1",
+      "start": 63600000,
+      "end": 66100000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q13.2",
+      "start": 66100000,
+      "end": 68700000,
+      "stain": "gpos25"
+    },
+    {
+      "id": "q13.3",
+      "start": 68700000,
+      "end": 70500000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q13.4",
+      "start": 70500000,
+      "end": 75500000,
+      "stain": "gpos50"
+    },
+    {
+      "id": "q13.5",
+      "start": 75500000,
+      "end": 77400000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q14.1",
+      "start": 77400000,
+      "end": 85900000,
+      "stain": "gpos100"
+    },
+    {
+      "id": "q14.2",
+      "start": 85900000,
+      "end": 88600000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q14.3",
+      "start": 88600000,
+      "end": 93000000,
+      "stain": "gpos100"
+    },
+    {
+      "id": "q21",
+      "start": 93000000,
+      "end": 97400000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q22.1",
+      "start": 97400000,
+      "end": 102300000,
+      "stain": "gpos100"
+    },
+    {
+      "id": "q22.2",
+      "start": 102300000,
+      "end": 103000000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q22.3",
+      "start": 103000000,
+      "end": 110600000,
+      "stain": "gpos100"
+    },
+    {
+      "id": "q23.1",
+      "start": 110600000,
+      "end": 112700000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q23.2",
+      "start": 112700000,
+      "end": 114600000,
+      "stain": "gpos50"
+    },
+    {
+      "id": "q23.3",
+      "start": 114600000,
+      "end": 121300000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q24.1",
+      "start": 121300000,
+      "end": 124000000,
+      "stain": "gpos50"
+    },
+    {
+      "id": "q24.2",
+      "start": 124000000,
+      "end": 127900000,
+      "stain": "gneg"
+    },
+    {
+      "id": "q24.3",
+      "start": 127900000,
+      "end": 130900000,
+      "stain": "gpos50"
+    },
+    {
+      "id": "q25",
+      "start": 130900000,
+      "end": 135086622,
+      "stain": "gneg"
+    }
+  ],
+  "source": "UCSC cytoBandIdeo (hg38 / GRCh38)",
+  "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+  "band_count": 36,
+  "fetched_at": "2026-09-30"
+}

@@ -1,0 +1,85 @@
+{
+  "symbol": "APOE",
+  "ok": true,
+  "error": null,
+  "queried_at": "2026-09-29",
+  "id": "ENSG00000130203",
+  "name": "apolipoprotein E",
+  "aliases": [
+    "AD2",
+    "APO-E",
+    "ApoE4",
+    "LDLCQ5",
+    "LPG"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "19",
+    "start": 44903787,
+    "end": 44909396,
+    "assembly": "GRCh38"
+  },
+  "uniprot": "P02649",
+  "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P02649",
+  "pathways": [
+    {
+      "name": "Cholesterol metabolism - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04979"
+    },
+    {
+      "name": "Alzheimer disease - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05010"
+    }
+  ],
+  "summary": "The protein encoded by this gene is a major apoprotein of the chylomicron. It binds to a specific liver and peripheral cell receptor, and is essential for the normal catabolism of triglyceride-rich lipoprotein constituents. This gene maps to chromosome 19 in a cluster with the related apolipoprotein C1 and C2 genes. Mutations in this gene result in familial dysbetalipoproteinemia, or type III hyperlipoproteinemia (HLP III), in which increased plasma cholesterol and triglycerides are the consequence of impaired clearance of chylomicron and VLDL remnants. [provided by RefSeq, Jun 2016].",
+  "raw_hit": {
+    "_id": "348",
+    "_score": 18.816458,
+    "alias": [
+      "AD2",
+      "APO-E",
+      "ApoE4",
+      "LDLCQ5",
+      "LPG"
+    ],
+    "ensembl": {
+      "gene": "ENSG00000130203"
+    },
+    "genomic_pos": {
+      "chr": "19",
+      "end": 44909396,
+      "ensemblgene": "ENSG00000130203",
+      "start": 44903787,
+      "strand": 1
+    },
+    "name": "apolipoprotein E",
+    "pathway": {
+      "kegg": [
+        {
+          "id": "hsa04979",
+          "name": "Cholesterol metabolism - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05010",
+          "name": "Alzheimer disease - Homo sapiens (human)"
+        }
+      ]
+    },
+    "summary": "The protein encoded by this gene is a major apoprotein of the chylomicron. It binds to a specific liver and peripheral cell receptor, and is essential for the normal catabolism of triglyceride-rich lipoprotein constituents. This gene maps to chromosome 19 in a cluster with the related apolipoprotein C1 and C2 genes. Mutations in this gene result in familial dysbetalipoproteinemia, or type III hyperlipoproteinemia (HLP III), in which increased plasma cholesterol and triglycerides are the consequence of impaired clearance of chylomicron and VLDL remnants. [provided by RefSeq, Jun 2016].",
+    "symbol": "APOE",
+    "type_of_gene": "protein-coding",
+    "uniprot": {
+      "Swiss-Prot": "P02649",
+      "TrEMBL": [
+        "A0ACI8RFW9",
+        "A0A0S2Z3D5",
+        "H0Y7L5",
+        "A0ACI8PYD1",
+        "A0ACI8RQ12",
+        "E7ERP7",
+        "E9PEV4",
+        "A0ACI8Q5Y9"
+      ]
+    }
+  }
+}

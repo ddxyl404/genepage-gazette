@@ -1,0 +1,124 @@
+{
+  "symbol": "BRCA2",
+  "ok": true,
+  "error": null,
+  "queried_at": "2026-09-29",
+  "id": "ENSG00000139618",
+  "name": "BRCA2 DNA repair associated",
+  "aliases": [
+    "BRCC2",
+    "BROVCA2",
+    "FACD",
+    "FAD",
+    "FAD1",
+    "FANCD",
+    "FANCD1",
+    "GLM3",
+    "PNCA2",
+    "XRCC11"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "13",
+    "start": 32315086,
+    "end": 32400268,
+    "assembly": "GRCh38"
+  },
+  "uniprot": "P51587",
+  "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P51587",
+  "pathways": [
+    {
+      "name": "Homologous recombination - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa03440"
+    },
+    {
+      "name": "Fanconi anemia pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa03460"
+    },
+    {
+      "name": "Pathways in cancer - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05200"
+    },
+    {
+      "name": "Pancreatic cancer - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05212"
+    },
+    {
+      "name": "Breast cancer - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05224"
+    }
+  ],
+  "summary": "The product of this gene in involved in maintenance of genome stability. It is involved in double-strand break repair pathways during mitotic and meiotic homologous recombination and functions in protecting DNA replication forks. The encoded protein contains sites for interactions with PALB2 and EMSY and an N-terminal DNA binding domain. It also contains a RAD51 binding domain with multiple components. It has multiple BRC repeats, an alpha helix domain, oligonucleotide binding folds, and a tower-like domain. It has a nuclear localization signal and a phosphorylation site for cyclin-dependent kinase. The C-terminus of the protein can bind single-stranded and double-stranded DNA. The product of this gene interacts with multiple proteins, including RAD51. It is involved in recruiting RAD51 filaments to DNA double-strand break sites and also in cytoplasmic division. It also acts as a tumor suppressor. Mutations in this gene or decreased expression have been implicated in multiple tumor types, including breast, ovarian, pancreatic, prostate and other cancers. [provided by RefSeq, May 2026].",
+  "raw_hit": {
+    "_id": "675",
+    "_score": 17.346825,
+    "alias": [
+      "BRCC2",
+      "BROVCA2",
+      "FACD",
+      "FAD",
+      "FAD1",
+      "FANCD",
+      "FANCD1",
+      "GLM3",
+      "PNCA2",
+      "XRCC11"
+    ],
+    "ensembl": {
+      "gene": "ENSG00000139618"
+    },
+    "genomic_pos": {
+      "chr": "13",
+      "end": 32400268,
+      "ensemblgene": "ENSG00000139618",
+      "start": 32315086,
+      "strand": 1
+    },
+    "name": "BRCA2 DNA repair associated",
+    "pathway": {
+      "kegg": [
+        {
+          "id": "hsa03440",
+          "name": "Homologous recombination - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa03460",
+          "name": "Fanconi anemia pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05200",
+          "name": "Pathways in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05212",
+          "name": "Pancreatic cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05224",
+          "name": "Breast cancer - Homo sapiens (human)"
+        }
+      ]
+    },
+    "summary": "The product of this gene in involved in maintenance of genome stability. It is involved in double-strand break repair pathways during mitotic and meiotic homologous recombination and functions in protecting DNA replication forks. The encoded protein contains sites for interactions with PALB2 and EMSY and an N-terminal DNA binding domain. It also contains a RAD51 binding domain with multiple components. It has multiple BRC repeats, an alpha helix domain, oligonucleotide binding folds, and a tower-like domain. It has a nuclear localization signal and a phosphorylation site for cyclin-dependent kinase. The C-terminus of the protein can bind single-stranded and double-stranded DNA. The product of this gene interacts with multiple proteins, including RAD51. It is involved in recruiting RAD51 filaments to DNA double-strand break sites and also in cytoplasmic division. It also acts as a tumor suppressor. Mutations in this gene or decreased expression have been implicated in multiple tumor types, including breast, ovarian, pancreatic, prostate and other cancers. [provided by RefSeq, May 2026].",
+    "symbol": "BRCA2",
+    "type_of_gene": "protein-coding",
+    "uniprot": {
+      "Swiss-Prot": "P51587",
+      "TrEMBL": [
+        "A0A8V8TPZ2",
+        "A0A7P0T9D7",
+        "A0AAQ5BGN0",
+        "H0YE37",
+        "A0A7P0TAP7",
+        "A0A590UJI7",
+        "A0AAQ5BGN4",
+        "H0YD86",
+        "A0AAQ5BGN2",
+        "A0A590UJU6",
+        "A0A590UJ24",
+        "A0AAQ5BGQ6",
+        "A0A8V8TQQ4"
+      ]
+    }
+  }
+}

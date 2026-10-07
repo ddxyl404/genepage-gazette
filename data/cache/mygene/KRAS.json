@@ -1,0 +1,438 @@
+{
+  "symbol": "KRAS",
+  "ok": true,
+  "error": null,
+  "queried_at": "2026-09-29",
+  "id": "ENSG00000133703",
+  "name": "KRas proto-oncogene, GTPase",
+  "aliases": [
+    "'C-K-RAS",
+    "C-K-RAS",
+    "CFC2",
+    "K-RAS2A",
+    "K-RAS2B",
+    "K-RAS4A",
+    "K-RAS4B",
+    "K-Ras",
+    "K-Ras 2",
+    "KI-RAS",
+    "KRAS1",
+    "KRAS2",
+    "NS",
+    "NS3",
+    "OES",
+    "RALD",
+    "RALD2",
+    "RASK2",
+    "c-Ki-ras",
+    "c-Ki-ras2"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "12",
+    "start": 25205246,
+    "end": 25326473,
+    "assembly": "GRCh38"
+  },
+  "uniprot": "P01116",
+  "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P01116",
+  "pathways": [
+    {
+      "name": "MAPK signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04010"
+    },
+    {
+      "name": "ErbB signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04012"
+    },
+    {
+      "name": "Ras signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04014"
+    },
+    {
+      "name": "Rap1 signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04015"
+    },
+    {
+      "name": "Chemokine signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04062"
+    }
+  ],
+  "summary": "This gene, a Kirsten ras oncogene homolog from the mammalian ras gene family, encodes a protein that is a member of the small GTPase superfamily. A single amino acid substitution is responsible for an activating mutation. The transforming protein that results is implicated in various malignancies, including lung adenocarcinoma, mucinous adenoma, ductal carcinoma of the pancreas and colorectal carcinoma. Alternative splicing leads to variants encoding two isoforms that differ in the C-terminal region. [provided by RefSeq, Jul 2008].",
+  "raw_hit": {
+    "_id": "3845",
+    "_score": 17.657864,
+    "alias": [
+      "'C-K-RAS",
+      "C-K-RAS",
+      "CFC2",
+      "K-RAS2A",
+      "K-RAS2B",
+      "K-RAS4A",
+      "K-RAS4B",
+      "K-Ras",
+      "K-Ras 2",
+      "KI-RAS",
+      "KRAS1",
+      "KRAS2",
+      "NS",
+      "NS3",
+      "OES",
+      "RALD",
+      "RALD2",
+      "RASK2",
+      "c-Ki-ras",
+      "c-Ki-ras2"
+    ],
+    "ensembl": {
+      "gene": "ENSG00000133703"
+    },
+    "genomic_pos": {
+      "chr": "12",
+      "end": 25326473,
+      "ensemblgene": "ENSG00000133703",
+      "start": 25205246,
+      "strand": -1
+    },
+    "name": "KRas proto-oncogene, GTPase",
+    "pathway": {
+      "kegg": [
+        {
+          "id": "hsa04010",
+          "name": "MAPK signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04012",
+          "name": "ErbB signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04014",
+          "name": "Ras signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04015",
+          "name": "Rap1 signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04062",
+          "name": "Chemokine signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04068",
+          "name": "FoxO signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04071",
+          "name": "Sphingolipid signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04072",
+          "name": "Phospholipase D signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04137",
+          "name": "Mitophagy - animal - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04140",
+          "name": "Autophagy - animal - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04150",
+          "name": "mTOR signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04151",
+          "name": "PI3K-Akt signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04210",
+          "name": "Apoptosis - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04211",
+          "name": "Longevity regulating pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04213",
+          "name": "Longevity regulating pathway - multiple species - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04218",
+          "name": "Cellular senescence - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04360",
+          "name": "Axon guidance - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04370",
+          "name": "VEGF signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04371",
+          "name": "Apelin signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04540",
+          "name": "Gap junction - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04550",
+          "name": "Signaling pathways regulating pluripotency of stem cells - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04625",
+          "name": "C-type lectin receptor signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04650",
+          "name": "Natural killer cell mediated cytotoxicity - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04660",
+          "name": "T cell receptor signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04662",
+          "name": "B cell receptor signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04664",
+          "name": "Fc epsilon RI signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04714",
+          "name": "Thermogenesis - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04720",
+          "name": "Long-term potentiation - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04722",
+          "name": "Neurotrophin signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04725",
+          "name": "Cholinergic synapse - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04726",
+          "name": "Serotonergic synapse - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04730",
+          "name": "Long-term depression - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04810",
+          "name": "Regulation of actin cytoskeleton - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04910",
+          "name": "Insulin signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04912",
+          "name": "GnRH signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04914",
+          "name": "Progesterone-mediated oocyte maturation - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04915",
+          "name": "Estrogen signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04916",
+          "name": "Melanogenesis - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04917",
+          "name": "Prolactin signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04919",
+          "name": "Thyroid hormone signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04921",
+          "name": "Oxytocin signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04926",
+          "name": "Relaxin signaling pathway - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04929",
+          "name": "GnRH secretion - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04933",
+          "name": "AGE-RAGE signaling pathway in diabetic complications - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04935",
+          "name": "Growth hormone synthesis, secretion and action - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa04960",
+          "name": "Aldosterone-regulated sodium reabsorption - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05010",
+          "name": "Alzheimer disease - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05022",
+          "name": "Pathways of neurodegeneration - multiple diseases - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05034",
+          "name": "Alcoholism - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05160",
+          "name": "Hepatitis C - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05161",
+          "name": "Hepatitis B - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05163",
+          "name": "Human cytomegalovirus infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05165",
+          "name": "Human papillomavirus infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05166",
+          "name": "Human T-cell leukemia virus 1 infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05167",
+          "name": "Kaposi sarcoma-associated herpesvirus infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05170",
+          "name": "Human immunodeficiency virus 1 infection - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05200",
+          "name": "Pathways in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05203",
+          "name": "Viral carcinogenesis - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05205",
+          "name": "Proteoglycans in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05206",
+          "name": "MicroRNAs in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05210",
+          "name": "Colorectal cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05211",
+          "name": "Renal cell carcinoma - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05212",
+          "name": "Pancreatic cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05213",
+          "name": "Endometrial cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05214",
+          "name": "Glioma - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05215",
+          "name": "Prostate cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05216",
+          "name": "Thyroid cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05218",
+          "name": "Melanoma - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05219",
+          "name": "Bladder cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05220",
+          "name": "Chronic myeloid leukemia - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05221",
+          "name": "Acute myeloid leukemia - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05223",
+          "name": "Non-small cell lung cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05224",
+          "name": "Breast cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05225",
+          "name": "Hepatocellular carcinoma - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05226",
+          "name": "Gastric cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05230",
+          "name": "Central carbon metabolism in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05231",
+          "name": "Choline metabolism in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05235",
+          "name": "PD-L1 expression and PD-1 checkpoint pathway in cancer - Homo sapiens (human)"
+        },
+        {
+          "id": "hsa05417",
+          "name": "Lipid and atherosclerosis - Homo sapiens (human)"
+        }
+      ]
+    },
+    "summary": "This gene, a Kirsten ras oncogene homolog from the mammalian ras gene family, encodes a protein that is a member of the small GTPase superfamily. A single amino acid substitution is responsible for an activating mutation. The transforming protein that results is implicated in various malignancies, including lung adenocarcinoma, mucinous adenoma, ductal carcinoma of the pancreas and colorectal carcinoma. Alternative splicing leads to variants encoding two isoforms that differ in the C-terminal region. [provided by RefSeq, Jul 2008].",
+    "symbol": "KRAS",
+    "type_of_gene": "protein-coding",
+    "uniprot": {
+      "Swiss-Prot": "P01116",
+      "TrEMBL": [
+        "I1SRC5",
+        "A0ABF7PHA5",
+        "G3V4K2",
+        "A0ACI8U5K7",
+        "A0A8I5KR86",
+        "A0A8I5KXN3",
+        "G3V5T7",
+        "A0A8I5KYH6",
+        "A0A8I5KQ21",
+        "A0A8I5KQU3",
+        "A0A8I5KUB5"
+      ]
+    }
+  }
+}

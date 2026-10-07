@@ -1,0 +1,226 @@
+{
+  "id": "ENSG00000012048",
+  "symbol": "BRCA1",
+  "aliases": [
+    "BRCAI",
+    "BRCC1",
+    "BROVCA1",
+    "FANCS",
+    "IRIS",
+    "PNCA4",
+    "PPP1R53",
+    "PSCP",
+    "RNF53"
+  ],
+  "type": "protein_coding",
+  "location": {
+    "chrom": "17",
+    "start": 43044292,
+    "end": 43170245,
+    "assembly": "GRCh38"
+  },
+  "deck_zh": "BRCA1 参与同源重组修复与基因组稳定性维护，是遗传性乳腺癌与卵巢癌相关基因研究的重要对象。其蛋白与多种 DNA 修复复合体相互作用。本条目提供身份、通路与表达等结构化概览，不构成临床解读。",
+  "deck_en": "BRCA1 contributes to homologous recombination repair and genome stability, and remains a major focus of hereditary breast and ovarian cancer genetics. The protein interacts with multiple DNA-repair complexes. This entry offers a structured overview of identity, pathways, and expression—not a clinical interpretation.",
+  "headline_stats": [
+    {
+      "key": "location",
+      "label_zh": "基因组位置",
+      "value": "17q21.31"
+    },
+    {
+      "key": "clinvar_plp",
+      "label_zh": "ClinVar 致病/可能致病",
+      "value": 4956,
+      "as_of": "2026-09-29"
+    },
+    {
+      "key": "top_tissue",
+      "label_zh": "GTEx 最高表达",
+      "value": "淋巴细胞",
+      "as_of": "2026-09-29",
+      "detail": "Cells - EBV-transformed lymphocytes"
+    }
+  ],
+  "pathways": [
+    {
+      "name": "Homologous recombination - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa03440"
+    },
+    {
+      "name": "Fanconi anemia pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa03460"
+    },
+    {
+      "name": "Ubiquitin mediated proteolysis - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04120"
+    },
+    {
+      "name": "PI3K-Akt signaling pathway - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa04151"
+    },
+    {
+      "name": "MicroRNAs in cancer - Homo sapiens (human)",
+      "url": "https://www.kegg.jp/pathway/hsa05206"
+    }
+  ],
+  "expression": {
+    "source": "GTEx",
+    "unit": "TPM",
+    "tissues": [
+      {
+        "name": "Cells - EBV-transformed lymphocytes",
+        "name_zh": "淋巴细胞",
+        "value": 19.768
+      },
+      {
+        "name": "Testis",
+        "name_zh": "睾丸",
+        "value": 10.925
+      },
+      {
+        "name": "Cells - Cultured fibroblasts",
+        "name_zh": "成纤维细胞",
+        "value": 6.958
+      },
+      {
+        "name": "Thyroid",
+        "name_zh": "甲状腺",
+        "value": 4.408
+      },
+      {
+        "name": "Esophagus - Mucosa",
+        "name_zh": "食管黏膜",
+        "value": 2.624
+      },
+      {
+        "name": "Nerve - Tibial",
+        "name_zh": "胫神经",
+        "value": 2.549
+      },
+      {
+        "name": "Brain - Spinal cord (cervical c-1)",
+        "name_zh": "脊髓",
+        "value": 2.371
+      },
+      {
+        "name": "Spleen",
+        "name_zh": "脾脏",
+        "value": 2.29
+      }
+    ],
+    "caption_zh": "图 · GTEx 中位表达（TPM）· 组织水平排行",
+    "caption_en": "Fig. · GTEx median expression (TPM) · ranked horizontal bars"
+  },
+  "structure": {
+    "alphafold_url": "https://alphafold.ebi.ac.uk/entry/P38398",
+    "preview_image": "cache/alphafold/BRCA1.png",
+    "caption_zh": "图 · AlphaFold 结构预测",
+    "caption_en": "Fig. · AlphaFold structure prediction"
+  },
+  "variants_summary": {
+    "clinvar_pathogenic": 4381,
+    "clinvar_likely_pathogenic": 575,
+    "note_zh": "非诊断结论；计数来自 ClinVar E-utilities 检索，非正式导出 tar。本期无逐条收录。"
+  },
+  "confidence": {
+    "identity": "high",
+    "expression": "high",
+    "clinvar": "high"
+  },
+  "colophon": {
+    "data_as_of": "2026-09-30",
+    "edition": "0.3.3-p39",
+    "disclaimer_zh": "科研/教学信息工具，非医疗器械，不提供诊断建议。"
+  },
+  "sources": [
+    {
+      "name": "MyGene.info",
+      "url": "https://mygene.info",
+      "version": "v3; queried 2026-09-29",
+      "confidence": "high"
+    },
+    {
+      "name": "Ensembl / GRCh38 via MyGene",
+      "url": "https://www.ensembl.org",
+      "version": "GRCh38",
+      "confidence": "high"
+    },
+    {
+      "name": "KEGG via MyGene",
+      "url": "https://www.kegg.jp",
+      "version": "via MyGene pathway.kegg",
+      "confidence": "medium"
+    },
+    {
+      "name": "AlphaFold DB",
+      "url": "https://alphafold.ebi.ac.uk/entry/P38398",
+      "version": "2026-09-30; entry by UniProt; local CA-trace preview",
+      "confidence": "high",
+      "note": "preview_image=cache/alphafold/BRCA1.png（本地缓存；由 PDB CA 迹线或 PAE 图生成）"
+    },
+    {
+      "name": "ClinVar",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "version": "2026-09-29; esearch count by gene+clinsig",
+      "confidence": "high"
+    },
+    {
+      "name": "GTEx",
+      "url": "https://gtexportal.org",
+      "version": "2026-09-29; GTEx Portal API v2 medianGeneExpression",
+      "confidence": "high",
+      "note": "组织中文（name_zh / top_tissue.value）为展示映射，非 GTEx 官方字段。"
+    },
+    {
+      "name": "UniProt domains",
+      "url": "https://www.uniprot.org/uniprotkb/P38398",
+      "version": "2026-09-30; Swiss-Prot features (Domain/Region/…)",
+      "confidence": "high"
+    },
+    {
+      "name": "UCSC cytoBandIdeo",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+      "version": "hg38 / GRCh38; 2026-09-30",
+      "confidence": "high",
+      "note": "figure_id=cytobands/17.json"
+    }
+  ],
+  "variants_detail": [],
+  "cytoband": {
+    "chrom": "17",
+    "start": 43044292,
+    "end": 43170245,
+    "assembly": "GRCh38",
+    "band_label": "17q21.31",
+    "figure_id": "cytobands/17.json"
+  },
+  "domains": [
+    {
+      "id": "up:P38398:Zinc finger:24-65",
+      "name": "RING-type",
+      "name_zh": "锌指",
+      "start": 24,
+      "end": 65,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P38398"
+    },
+    {
+      "id": "up:P38398:Domain:1642-1736",
+      "name": "BRCT 1",
+      "name_zh": "BRCT 域",
+      "start": 1642,
+      "end": 1736,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P38398"
+    },
+    {
+      "id": "up:P38398:Domain:1756-1855",
+      "name": "BRCT 2",
+      "name_zh": "BRCT 域",
+      "start": 1756,
+      "end": 1855,
+      "source": "UniProt",
+      "url": "https://www.uniprot.org/uniprotkb/P38398"
+    }
+  ]
+}
