@@ -6,7 +6,7 @@
 #   GENEPAGE_CACHE_DIR=/data/cache   — P2 cache / AlphaFold 预览
 #   NEXT_PUBLIC_API_URL=http://api:8000 — Web 调 API（容器网络内服务名）
 # 端口：API 8000 · Web 3000。公网请前置反向代理（HTTPS），见 README「生产注意」。
-# Render Free 部署见 docs/P4B_RENDER.md 与根目录 render.yaml。
+# Koyeb（推荐）见 docs/P4B_KOYEB.md 与 koyeb-compose.*.yaml；Render 备选见 docs/P4B_RENDER.md。
 
 services:
   api:

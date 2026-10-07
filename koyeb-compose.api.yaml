@@ -1,0 +1,55 @@
+# GenePage Gazette — Koyeb Compose (API App)
+# Usage: koyeb compose ./koyeb-compose.api.yaml
+# Docs: docs/P4B_KOYEB.md
+#
+# Replace YOUR_ORG_SLUG with the org segment from the real Public URL
+# (https://genepage-api-<ORG>.koyeb.app). After genepage-web exists, set
+# GENEPAGE_CORS_ORIGINS to that web URL (and any custom domain).
+#
+# Instance: eco-nano by default (second service). If this is the only
+# Service in the org and you want $0, change type to "free" (fra|was only).
+# Free tier: one free Instance per organization; 1h idle → scale-to-zero.
+
+app:
+  name: genepage-api
+
+services:
+  - definition:
+      name: genepage-api
+      type: WEB
+      git:
+        repository: github.com/ddxyl404/genepage-gazette
+        branch: main
+        # Repo root so api/Dockerfile can COPY api/ + data/
+        workdir: ""
+        docker:
+          dockerfile: api/Dockerfile
+      regions:
+        - fra
+      instance_types:
+        - scopes: ["region:fra"]
+          type: eco-nano
+      ports:
+        - port: 8000
+          protocol: http
+      routes:
+        - port: 8000
+          path: /
+      health_checks:
+        - grace_period: 120
+          interval: 30
+          timeout: 5
+          restart_limit: 3
+          http:
+            port: 8000
+            path: /api/health
+            method: GET
+      env:
+        - key: GENEPAGE_DATA_DIR
+          value: /data
+        - key: GENEPAGE_CACHE_DIR
+          value: /data/cache
+        - key: GENEPAGE_CORS_ORIGINS
+          value: https://genepage-web-YOUR_ORG_SLUG.koyeb.app
+        - key: PORT
+          value: "8000"

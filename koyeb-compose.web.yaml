@@ -1,0 +1,39 @@
+# GenePage Gazette — Koyeb Compose (Web App)
+# Usage: koyeb compose ./koyeb-compose.web.yaml
+# Docs: docs/P4B_KOYEB.md
+#
+# Replace YOUR_ORG_SLUG to match the API Public URL host.
+# NEXT_PUBLIC_API_URL is baked at Next build time — after changing it,
+# redeploy WITH rebuild (Deploy with build).
+#
+# Instance: free (512MB) recommended for Next.js. Only one free Instance
+# per organization; if free is already used by API, switch to eco-micro.
+
+app:
+  name: genepage-web
+
+services:
+  - definition:
+      name: genepage-web
+      type: WEB
+      git:
+        repository: github.com/ddxyl404/genepage-gazette
+        branch: main
+        # Monorepo: only web/ is in the build context
+        workdir: web
+        docker:
+          dockerfile: Dockerfile
+      regions:
+        - fra
+      instance_types:
+        - scopes: ["region:fra"]
+          type: free
+      ports:
+        - port: 3000
+          protocol: http
+      routes:
+        - port: 3000
+          path: /
+      env:
+        - key: NEXT_PUBLIC_API_URL
+          value: https://genepage-api-YOUR_ORG_SLUG.koyeb.app

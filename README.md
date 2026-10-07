@@ -69,9 +69,18 @@ docker compose up --build
 - `data/` 以只读卷挂到 API 的 `/data`（`GENEPAGE_DATA_DIR=/data`）
 
 
-## Render（P4b）
+## Koyeb（P4b，推荐）
 
-Render.com Free 双 Web Service 部署（API 烤入 `data/`，无持久免费盘）见 [`docs/P4B_RENDER.md`](docs/P4B_RENDER.md)。仓库根目录 `render.yaml` 为 Blueprint；需先把 GitHub 仓库连到 Render 再 Apply。
+Koyeb 双 App / 双 Web Service 部署（API 烤入 `data/`；组织级 1 个 free Instance，第二个建议 `eco-nano`）见 [`docs/P4B_KOYEB.md`](docs/P4B_KOYEB.md)。仓库根目录：
+
+- `koyeb-compose.api.yaml` → App/Service `genepage-api`
+- `koyeb-compose.web.yaml` → App/Service `genepage-web`
+
+控制台从 GitHub 用 Dockerfile 构建即可；公网形如 `https://<app>-<org>.koyeb.app`。改 `NEXT_PUBLIC_API_URL` 后 Web 须 **带 rebuild** 重部署。
+
+## Render（P4b 备选，需绑卡）
+
+Render Free Blueprint 现常要求支付卡，作备选保留。见 [`docs/P4B_RENDER.md`](docs/P4B_RENDER.md) 与根目录 `render.yaml`。
 
 ## 目录
 
@@ -81,9 +90,11 @@ genepage/
   web/          Next.js App Router
   data/         种子基因（唯一真相源）
   frontend-mock/ 版式参考
-  docs/         线框与 API 草案（含 P4B_RENDER.md）
+  docs/         含 P4B_KOYEB.md（推荐）、P4B_RENDER.md（备选）
   docker-compose.yml
-  render.yaml   Render Blueprint（P4b Free）
+  koyeb-compose.api.yaml   Koyeb API App（P4b）
+  koyeb-compose.web.yaml   Koyeb Web App（P4b）
+  render.yaml              Render Blueprint（备选）
 ```
 
 ## 生产注意

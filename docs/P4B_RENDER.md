@@ -1,5 +1,8 @@
 # P4b：Render.com Free 部署
 
+> **备选：** P4b 推荐改用 Koyeb（无需为 Free Blueprint 绑卡的路径见 [`docs/P4B_KOYEB.md`](P4B_KOYEB.md)）。本文保留 Render Free Blueprint 步骤；Render 现常要求支付卡。
+
+
 GenePage Gazette 在 Render Free 上拆成两个 Web Service：`genepage-api`（FastAPI + 烤入 `data/`）与 `genepage-web`（Next.js standalone）。根目录 `render.yaml` 为 Blueprint。
 
 > **不要**仅为部署单独 bump edition；edition 随数据/功能迭代，见 `docs/EDITION_POLICY.md`。

@@ -1,4 +1,5 @@
-# GenePage Gazette — Render Blueprint (P4b Free)
+# GenePage Gazette — Render Blueprint (P4b alternate; card often required)
+# Prefer Koyeb: docs/P4B_KOYEB.md + koyeb-compose.*.yaml
 # Free Web Services sleep after ~15 min idle; first request after sleep is a cold start.
 # If genepage-api / genepage-web names are taken, rename both services and update
 # NEXT_PUBLIC_API_URL + GENEPAGE_CORS_ORIGINS accordingly.
