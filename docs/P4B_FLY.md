@@ -1,4 +1,4 @@
-# P4b：Fly.io 部署（当前主路径）
+# P4b：Fly.io 部署（备选；当前主路径见 P4B_HF_SPACES.md）
 
 GenePage Gazette 在 Fly.io 上拆成 **两个 App**，各一台 Machine：
 

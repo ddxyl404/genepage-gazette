@@ -69,7 +69,16 @@ docker compose up --build
 - `data/` 以只读卷挂到 API 的 `/data`（`GENEPAGE_DATA_DIR=/data`）
 
 
-## Fly.io（P4b，当前主路径）
+## Hugging Face Spaces（P4b，当前主路径：单容器）
+
+API + Web 合进 **一个 Docker 容器**（uvicorn `127.0.0.1:8000` + Next standalone `0.0.0.0:7860`，浏览器同源 `/api/*` 经 Next rewrite 到容器内 API），见 [`docs/P4B_HF_SPACES.md`](docs/P4B_HF_SPACES.md)：
+
+- `hf-space/`：单容器 `Dockerfile`、`start.sh`、Space README 模板（`sdk: docker`、`app_port: 7860`）
+- `bash scripts/build_hf_space.sh` → 组装 Space 仓目录（默认 `/workspace/genepage-hf-space`，**不提交进本仓**），再 `hf upload <user>/<space> /workspace/genepage-hf-space . --repo-type=space`
+
+> ⚠ 2026-07 起 HF 规定：Docker/Gradio Space 跑免费 CPU basic 也需 **PRO** 订阅（Static Space 仍免费）。账号未开 PRO 时无法创建 Docker Space，详见文档开头。
+
+## Fly.io（P4b 备选）
 
 Fly.io 双 App（`genepage-api` + `genepage-web`，区域 `nrt`，空闲自动停机）见 [`docs/P4B_FLY.md`](docs/P4B_FLY.md)：
 
@@ -99,10 +108,11 @@ genepage/
   web/          Next.js App Router
   data/         种子基因（唯一真相源）
   frontend-mock/ 版式参考
-  docs/         含 P4B_FLY.md（主路径）、P4B_KOYEB.md / P4B_RENDER.md（备选）
+  docs/         含 P4B_HF_SPACES.md（主路径）、P4B_FLY.md / P4B_KOYEB.md / P4B_RENDER.md（备选）
   docker-compose.yml
-  fly.api.toml             Fly.io API App（P4b 主路径）
-  web/fly.toml             Fly.io Web App（P4b 主路径）
+  hf-space/                HF Docker Space 单容器（P4b 主路径；scripts/build_hf_space.sh 组装）
+  fly.api.toml             Fly.io API App（备选）
+  web/fly.toml             Fly.io Web App（备选）
   koyeb-compose.api.yaml   Koyeb API App（备选）
   koyeb-compose.web.yaml   Koyeb Web App（备选）
   render.yaml              Render Blueprint（备选）

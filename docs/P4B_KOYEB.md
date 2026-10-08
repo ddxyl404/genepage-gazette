@@ -1,4 +1,4 @@
-# P4b：Koyeb 部署（备选；主路径见 P4B_FLY.md）
+# P4b：Koyeb 部署（备选；主路径见 P4B_HF_SPACES.md）
 
 GenePage Gazette 在 Koyeb 上拆成 **两个 App / 两个 Web Service**：`genepage-api`（FastAPI + 烤入 `data/`）与 `genepage-web`（Next.js standalone）。仓库根目录提供 CLI 参考配置：
 
