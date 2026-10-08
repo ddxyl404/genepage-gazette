@@ -69,9 +69,18 @@ docker compose up --build
 - `data/` 以只读卷挂到 API 的 `/data`（`GENEPAGE_DATA_DIR=/data`）
 
 
-## Koyeb（P4b，推荐）
+## Fly.io（P4b，当前主路径）
 
-Koyeb 双 App / 双 Web Service 部署（API 烤入 `data/`；组织级 1 个 free Instance，第二个建议 `eco-nano`）见 [`docs/P4B_KOYEB.md`](docs/P4B_KOYEB.md)。仓库根目录：
+Fly.io 双 App（`genepage-api` + `genepage-web`，区域 `nrt`，空闲自动停机）见 [`docs/P4B_FLY.md`](docs/P4B_FLY.md)：
+
+- `fly.api.toml`（仓库根）→ App `genepage-api`：在仓库根 `fly deploy -c fly.api.toml --ha=false`
+- `web/fly.toml` → App `genepage-web`：在 `web/` 下 `fly deploy --ha=false`
+
+公网形如 `https://<app>.fly.dev`。新账号仅有免卡试用（2 VM 小时或 7 天，先到为准），之后需绑卡/预充值。改 `NEXT_PUBLIC_API_URL` 后 Web 须重新 `fly deploy`（重建镜像）。
+
+## Koyeb（P4b 备选）
+
+Koyeb 双 App / 双 Web Service 部署（API 烤入 `data/`；组织级 1 个 free Instance，第二个建议 `eco-nano`）见 [`docs/P4B_KOYEB.md`](docs/P4B_KOYEB.md)。近期控制台无法新建服务，暂作备选。仓库根目录：
 
 - `koyeb-compose.api.yaml` → App/Service `genepage-api`
 - `koyeb-compose.web.yaml` → App/Service `genepage-web`
@@ -90,10 +99,12 @@ genepage/
   web/          Next.js App Router
   data/         种子基因（唯一真相源）
   frontend-mock/ 版式参考
-  docs/         含 P4B_KOYEB.md（推荐）、P4B_RENDER.md（备选）
+  docs/         含 P4B_FLY.md（主路径）、P4B_KOYEB.md / P4B_RENDER.md（备选）
   docker-compose.yml
-  koyeb-compose.api.yaml   Koyeb API App（P4b）
-  koyeb-compose.web.yaml   Koyeb Web App（P4b）
+  fly.api.toml             Fly.io API App（P4b 主路径）
+  web/fly.toml             Fly.io Web App（P4b 主路径）
+  koyeb-compose.api.yaml   Koyeb API App（备选）
+  koyeb-compose.web.yaml   Koyeb Web App（备选）
   render.yaml              Render Blueprint（备选）
 ```
 

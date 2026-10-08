@@ -1,0 +1,49 @@
+# GenePage Gazette API — Fly.io（P4b 主路径）
+# 部署（在仓库根目录执行；工作目录 = Docker 构建 context = 仓库根）：
+#   fly deploy -c fly.api.toml --ha=false
+# flyctl 行为（已核对 flyctl 源码 internal/command/deploy/deploy_build.go）：
+#   [build].dockerfile 相对「本配置文件所在目录」解析 → 这里即 <repo>/api/Dockerfile；
+#   构建 context = `fly deploy` 的工作目录（第一个参数，缺省为当前目录）→ 必须在仓库根执行，
+#   因为 api/Dockerfile 需要 COPY api/… 与 data/。根目录 .dockerignore 生效。
+# app 名全局唯一：若 genepage-api 已被占用，改成如 genepage-api-ddx，并同步改：
+#   - fly.web.toml / web/fly.toml 里的 NEXT_PUBLIC_API_URL（然后重新构建 Web）
+#   - 若 Web 也改名，同步改下方 GENEPAGE_CORS_ORIGINS
+# 见 docs/P4B_FLY.md
+
+app = "genepage-api"
+primary_region = "nrt" # 东京；备选 "sin"（新加坡）。均离上海较近
+
+[build]
+  dockerfile = "api/Dockerfile"
+
+[env]
+  GENEPAGE_DATA_DIR = "/data"
+  GENEPAGE_CACHE_DIR = "/data/cache"
+  # 逗号分隔；浏览器直连 API 时的允许来源。自定义域名上线后追加，如
+  # "https://genepage-web.fly.dev,https://gazette.example.com"
+  GENEPAGE_CORS_ORIGINS = "https://genepage-web.fly.dev"
+  PORT = "8000"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 20
+    hard_limit = 40
+
+  [[http_service.checks]]
+    grace_period = "10s"
+    interval = "30s"
+    method = "GET"
+    timeout = "5s"
+    path = "/api/health"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb" # FastAPI + 烤入只读 JSON；OOM 时改 "512mb"

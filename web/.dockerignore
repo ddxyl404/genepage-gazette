@@ -1,0 +1,9 @@
+# Web 镜像构建 context = web/（Fly / Compose / Render 均如此）
+node_modules
+.next
+tsconfig.tsbuildinfo
+npm-debug.log*
+.env
+.env.*
+.DS_Store
+fly.toml

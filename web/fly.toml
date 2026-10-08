@@ -1,0 +1,46 @@
+# GenePage Gazette Web — Fly.io（P4b 主路径）
+# 部署（Docker 构建 context 必须是 web/，因为 web/Dockerfile 用 COPY package.json …）：
+#   cd web && fly deploy --ha=false
+#   或在仓库根：fly deploy web --ha=false   （工作目录 web/ → 自动读取 web/fly.toml）
+# flyctl：未写 [build].dockerfile 时用「工作目录」下的 Dockerfile，即 web/Dockerfile；
+#   .dockerignore 取工作目录下的 web/.dockerignore（排除本地 node_modules/.next）。
+# NEXT_PUBLIC_API_URL 在 Next 构建期内联（next.config.mjs rewrites + src/lib/api.ts），
+#   修改后必须重新 `fly deploy`（会重新构建镜像），仅改 env 不生效。
+# app 名全局唯一：若 genepage-web 已被占用，改名后同步改 fly.api.toml 的 GENEPAGE_CORS_ORIGINS
+#   并重新部署 API。见 docs/P4B_FLY.md
+
+app = "genepage-web"
+primary_region = "nrt" # 与 API 同区域；备选 "sin"
+
+[build]
+  [build.args]
+    NEXT_PUBLIC_API_URL = "https://genepage-api.fly.dev"
+
+[env]
+  NEXT_PUBLIC_API_URL = "https://genepage-api.fly.dev"
+  PORT = "3000"
+  HOSTNAME = "0.0.0.0"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 20
+    hard_limit = 40
+
+  [[http_service.checks]]
+    grace_period = "15s"
+    interval = "30s"
+    method = "GET"
+    timeout = "5s"
+    path = "/"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb" # Next standalone 比 API 吃内存；256mb 易 OOM
